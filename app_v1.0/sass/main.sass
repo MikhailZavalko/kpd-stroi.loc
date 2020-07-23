@@ -1,0 +1,876 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+
+
+::placeholder
+	color: #000
+
+::selection
+	background-color: rgba(#eeacee,.5)
+// 	color: #fff
+
+html, body
+	height: 100%
+	margin: 0
+	padding: 0
+
+body
+	font-size: 16px
+	font-weight: 400
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	color: $fontcolor
+	background-color: #fefefe
+	input, textarea
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid
+			border-color: #C3C3C3
+		&:required:valid
+			border-color: #C3C3C3
+
+.container
+	width: 1290px
+	margin: 0 auto
+	padding: 0 20px
+	box-sizing: border-box
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+button, a
+	outline: none
+
+section
+	padding: 90px 0 145px 0
+
+h2
+	font-size: 60px
+	font-weight: 600
+	text-transform: uppercase
+	margin: 0 0 30px
+	line-height: 1.2
+	position: relative
+
+h3
+	font-weight: 500
+	font-size: 50px
+	line-height: 1.3
+	margin: 0 0 25px 0
+
+a
+	transition: $time
+
+p
+	font-size: 30px
+	line-height: 1.5
+	margin: 40px 0
+	position: relative
+
+
+
+.button
+	padding: 0 40px
+	height: 50px
+	line-height: 50px
+	color: #fff
+	text-decoration: none
+	background: $accent
+	outline: none
+	transition: $time
+	text-align: center
+	box-sizing: border-box
+	&:hover
+		background-color: darken($accent, 5%)
+
+
+
+.sticky-button
+	position: fixed
+	z-index: 10
+	right: 6%
+	bottom: 230px
+	width: 70px
+	height: 70px
+	outline: none
+	path
+		fill: $blue
+		transition: $time
+	.circle-phone
+		background-color: #fff
+		border: 2px $accent solid
+		box-sizing: border-box
+		border-radius: 100%
+		width: 100%
+		height: 100%
+		display: flex
+		justify-content: center
+		align-items: center
+		z-index: 2
+		position: relative
+	.circle
+		position: absolute
+		width: 100%
+		height: 100%
+		border-radius: 100%
+		top: 0
+		left: 0
+		transform-origin: 50% 50%
+		z-index: 0
+		&.first
+			border: 2px $blue solid
+			box-sizing: border-box
+			animation: pin 2.5s linear 0s infinite normal
+			background: none
+		&.second
+			background: $blue
+			animation: pin 3s linear 0s infinite normal
+	&:hover
+		path
+			fill: $accent
+
+@keyframes pin
+	0%
+		opacity: .6
+		transform: scale(1)
+	100%
+		opacity: 0
+		transform: scale(1.4)
+
+
+
+.top-section
+	width: 100%
+	height: calc(100vh - 100px)
+	// height: 1080px
+	padding: 0
+	background: #1e1d2d
+	position: relative
+	&::before
+		content: ''
+		position: absolute
+		bottom: 0
+		background: $gradient
+		width: 100%
+		height: 100%
+		display: block
+		z-index: 3
+	.slides
+		position: relative
+		padding-bottom: 115px
+		.slide
+			height: calc(100vh - 215px)
+			// height: 950px
+		.slick-dots
+			position: absolute
+			bottom: 0
+			left: 50%
+			transform: translateX(-50%)
+			padding: 0
+			margin: 0
+			display: flex
+			justify-content: center
+			z-index: 5
+			li
+				list-style-type: none
+				width: 150px
+				height: 115px
+				position: relative
+				&::after
+					content: ''
+					position: absolute
+					width: 100%
+					height: 5px
+					border-radius: 10em
+					background-color: #b5b5b5
+					left: 0
+					top: 50%
+					transform: translateY(-50%)
+					transition: $time
+				&.slick-active
+					&::after
+						background-color: $yellow
+				&:hover
+					cursor: pointer
+					&::after
+						background-color: darken($yellow, 10%)
+				&:not(:last-child)
+					margin-right: 65px
+				button
+					display: none
+	.text
+		position: absolute
+		width: 1290px
+		bottom: 115px
+		left: 50%
+		transform: translateX(-50%)
+		color: #fff
+		text-align: center
+		z-index: 5
+		h3, h1
+			font-family: MalgunGothic-g, sans-serif
+			text-transform: uppercase
+			margin: 0
+			line-height: 1.3
+		h3
+			font-size: 52px
+			font-weight: 400
+			word-wrap: normal
+		h1
+			font-size: 94px
+			color: $yellow
+			font-weight: 700
+			letter-spacing: 6px
+		p
+			font-style: italic
+			font-size: 37px
+			margin: 0
+
+
+
+.header
+	background-color: $yellow
+	position: sticky
+	top: 0
+	z-index: 9
+	transition: $time
+	&.shrinked
+		box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5)
+		.menu
+			li
+				height: 70px
+	.menu
+		display: flex
+		justify-content: space-between
+		padding: 0
+		margin: 0
+		transition: all .15s ease
+		li
+			transition: $time
+			list-style-type: none
+			height: 100px
+			a
+				height: 100%
+				display: flex
+				align-items: center
+				text-decoration: none
+				color: #a07814
+				text-transform: uppercase
+				font-size: 30px
+				font-weight: 600
+				transition: $time
+				&:hover
+					color: $fontcolor
+	.hamburger
+		display: none
+		z-index: 15
+		position: relative
+
+.hamburger
+	padding: 0
+	height: 100%
+	outline: none
+.hamburger-inner
+	opacity: .8
+.hamburger-inner, .hamburger-inner::after, .hamburger-inner::before
+	background-color: $fontcolor
+	width: 35px
+	height: 4px
+.hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::after, .hamburger.is-active .hamburger-inner::before
+	background-color: $fontcolor
+.hamburger-box
+	width: 35px
+
+
+
+.about-section
+	position: relative
+	h2
+		z-index: 5
+	p
+		position: relative
+		z-index: 5
+		a
+			color: $yellow
+			text-decoration: none
+			position: relative
+			&::after
+				content: ''
+				position: absolute
+				bottom: 0
+				left: 0
+				width: 100%
+				height: 3px
+				transition: $time
+				background-color: transparent
+			&:hover
+				&::after
+					background-color: $yellow
+	.list
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		margin-bottom: 70px
+		font-size: 32px
+		line-height: 1.2
+		font-weight: 700
+		z-index: 1
+		position: relative
+		&.after-elem
+			&::before
+				content: ''
+				position: absolute
+				width: 492px
+				height: 557px
+				background: url("../img/p.png") center no-repeat
+				background-size: cover
+				top: -350px
+				right: 0
+		li
+			&:not(:last-child)
+				margin-bottom: 20px
+		.tab-btns
+			padding-left: 34px
+			margin: 0
+			display: flex
+			flex-direction: column
+			justify-content: center
+			.tab-btn
+				line-height: 1.3
+				position: relative
+				font-weight: 700
+				background-color: transparent
+				color: $fontcolor
+				border: none
+				cursor: pointer
+				padding: 0 3px
+				border-radius: 4px
+				transition: $time
+				&::before
+					content: ''
+					position: absolute
+					left: -34px
+					top: 50%
+					transform: translateY(-50%)
+					width: 14px
+					height: 14px
+					border-radius: 100%
+					background-color: $fontcolor
+				&.active
+					background-color: $blue
+					color: #fff
+		.tab-contents
+			position: relative
+			width: 640px
+			&::after
+				content: ''
+				width: 100%
+				height: 25px
+				background-color: $yellow
+				position: absolute
+				bottom: -22px
+				left: 0
+		.tab-content
+			position: absolute
+			top: 0
+			right: 0
+			bottom: 0
+			left: 0
+			opacity: 0
+			visibility: hidden
+			transition: $time
+			&.active
+				opacity: 1
+				visibility: visible
+
+
+
+.houses-section
+	background: $blue url("../img/houses-bg.jpg") bottom no-repeat
+	color: #fff
+	padding-bottom: 1px
+	p
+		&.bigger
+			font-size: 35px
+			font-weight: 500
+		&.last
+			margin-bottom: 150px
+		a
+			color: $fontcolor
+			text-decoration: none
+			position: relative
+			&::after
+				content: ''
+				position: absolute
+				bottom: 0
+				left: 0
+				width: 100%
+				height: 3px
+				transition: $time
+				background-color: transparent
+			&:hover
+				&::after
+					background-color: $fontcolor
+	.tabs.houses
+		margin-bottom: 120px
+		.tab-btns
+			margin: -100px 0 0 0
+			display: flex
+			justify-content: space-between
+			position: relative
+			z-index: 5
+			max-width: 640px
+			.tab-btn
+				line-height: 1.3
+				font-size: 30px
+				font-weight: 600
+				background-color: #f0bc4d
+				color: #d0a756
+				border: none
+				cursor: pointer
+				width: 200px
+				height: 60px
+				display: flex
+				justify-content: center
+				align-items: center
+				border-radius: 7px
+				transition: $time
+				text-align: left
+				&.active
+					background-color: #fff
+					color: $blue
+		.tab-contents
+			display: block
+			position: relative
+			z-index: 1
+			width: 100%
+			min-height: 550px
+			font-size: 22px
+			line-height: 1.2
+		.tab-content
+			position: absolute
+			top: 0
+			right: 0
+			bottom: 0
+			left: 0
+			opacity: 0
+			visibility: hidden
+			transition: $time
+			display: flex
+			&.active
+				opacity: 1
+				visibility: visible
+			.image
+				width: 616px
+				height: 406px
+				border: 12px solid $yellow
+				box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.5)
+				margin-right: 80px
+				flex-shrink: 0
+				position: relative
+				&::after
+					content: ''
+					position: absolute
+					bottom: 30px
+					right: 30px
+					width: 114px
+					height: 114px
+					background: url('../img/scale.png') center no-repeat
+					background-size: cover
+					transition: $time
+				&:hover
+					&::after
+						transform: scale(1.2)
+			.text
+				h2
+					// color: $yellow
+					font-size: 80px
+					font-weight: 600
+					margin-top: 5px
+					margin-bottom: 45px
+				h3
+					font-size: 44px
+				p
+					line-height: 1.4
+					margin: 35px 0
+				ul
+					li
+						margin-bottom: 1px
+	.blue-bg
+		width: 1450px
+		margin: 0 auto
+		padding: 85px 0 550px
+		box-sizing: border-box
+		background-color: $blue
+		// position: relative
+		display: block
+		// &::before
+		// 	content: ''
+		// 	position: absolute
+		// 	width: 836px
+		// 	height: 989px
+		// 	background: url("../img/е.png") center no-repeat
+		// 	background-size: cover
+		// 	top: -320px
+		// 	left: 0
+		// 	z-index: 5
+		.tabs
+			display: flex
+			justify-content: space-between
+			.tab-btns
+				padding-left: 34px
+				margin: 0
+				display: flex
+				flex-direction: column
+				justify-content: center
+				.tab-btn
+					line-height: 1.3
+					font-size: 50px
+					font-weight: 700
+					background-color: transparent
+					color: #5a5a64
+					border: none
+					cursor: pointer
+					padding: 0 3px
+					border-radius: 4px
+					transition: $time
+					text-align: left
+					position: relative
+					&::before
+						content: ''
+						position: absolute
+						left: -34px
+						top: 50%
+						transform: translateY(-50%)
+						width: 14px
+						height: 14px
+						border-radius: 100%
+						background-color: #5a5a64
+						transition: $time
+					&.active
+						background-color: $blue
+						color: #fff
+						&::before
+							background-color: #fff
+			.tab-contents
+				display: block
+				width: 100%
+				margin-left: 80px
+				position: relative
+				font-size: 30px
+				line-height: 1.2
+			.tab-content
+				position: absolute
+				top: 0
+				right: 0
+				bottom: 0
+				left: 0
+				opacity: 0
+				visibility: hidden
+				transition: $time
+				&.active
+					opacity: 1
+					visibility: visible
+
+
+
+.map-general-section
+	background-color: $blue
+	padding: 70px 0
+	img
+		margin: auto
+
+
+
+.map-section
+
+
+
+footer
+	background-color: $blue
+	padding: 90px 0 115px
+	color: #fff
+	.contacts
+		display: flex
+		justify-content: space-between
+		.cont-block
+			display: flex
+			justify-content: center
+			align-items: center
+			&:hover
+				.icon
+					svg path
+						fill: $yellow
+			img
+				flex-shrink: 0
+			.icon
+				width: 77px
+				height: 77px
+				border: 3px solid #fff
+				flex-shrink: 0
+				box-sizing: border-box
+				display: flex
+				justify-content: center
+				align-items: center
+				position: relative
+				&::after
+					content: ''
+					width: 48px
+					height: 48px
+					border: 3px solid #fff
+					box-sizing: border-box
+					position: absolute
+					top: 50%
+					right: 50%
+					transform: translate(50%, -50%)
+					border-radius: 100%
+				svg path
+					transition: $time
+			.text
+				margin-left: 30px
+				line-height: 1
+				display: flex
+				flex-direction: column
+				justify-content: center
+				p, a
+					margin: 0
+					line-height: 1.4
+					font-size: 20px
+				a
+					&:not(:last-child)
+						margin-bottom: 10px
+		a
+			color: #fff
+			text-decoration: none
+			&:hover
+				color: $yellow
+				svg
+					path
+						fill: $yellow
+						stroke: $yellow
+
+
+
+.form
+	padding: 45px 50px 30px 50px
+	display: flex
+	flex-direction: column
+	position: relative
+	max-width: 400px
+	background: #f2f2f2
+	text-align: center
+	h4
+		font-size: 27px
+		font-weight: 700
+		line-height: 1.1
+		margin: 0 0 10px 0
+	a
+		color: $accent
+		text-decoration: none
+		display: inline-block
+		position: relative
+		font-size: 28px
+		font-weight: 500
+		margin: 7px 0 12px
+		svg
+			margin-bottom: -3px
+			path
+				fill: $accent
+		&::after
+			content: ''
+			position: absolute
+			bottom: 3px
+			left: 0
+			width: 100%
+			height: 3px
+			background-color: transparent
+			transition: $time
+		&:hover
+			&::after
+				background-color: $accent
+
+	p
+		font-size: 18px
+		margin: 0 0 25px
+		padding: 0
+		line-height: 1.2
+		background: none
+		font-style: normal
+		&.personal-data
+			font-size: 11px
+			font-weight: 300
+			color: #777
+			line-height: 1.3
+			margin: 0 0 0 4px
+	.input
+		margin-bottom: 11px
+		text-align: center
+		font-size: 16px
+		font-weight: 300
+		border: 1px #C3C3C3 solid
+		height: 40px
+		width: 100%
+		box-sizing: border-box
+		font-family: $default-font
+		&::placeholder
+			color: #000
+		&:focus
+			border: 1px #C3C3C3 solid
+			&::placeholder
+				color: transparent
+	.button
+		width: 100%
+		font-size: 18px
+		height: 50px
+		margin: 15px 0 15px 0
+		font-weight: 700
+		border: none
+		&:hover
+			cursor: pointer
+	.confirm
+		display: flex
+		align-items: flex-start
+		justify-content: center
+	.success
+		font-weight: 900
+		background-color: #fff
+		p
+			color: #000
+			font-size: 16px
+			font-weight: 500
+			span
+				color: $accent
+				font-size: 30px
+				margin-bottom: 0
+				line-height: 1
+				text-transform: uppercase
+				span
+					color: $fontcolor
+					font-size: 18px
+					font-weight: 400
+					margin-top: 25px
+					display: block
+					line-height: 1.2
+	&::before
+		content: ''
+		box-sizing: border-box
+		z-index: 10
+		opacity: 0
+		visibility: hidden
+		transition-property: opacity, visibility
+		transition-duration: .15s
+		position: absolute
+		top: 50%
+		left: 50%
+		margin-top: -25px
+		margin-left: -25px
+		display: block
+		width: 50px
+		height: 50px
+		border-radius: 50%
+		border-style: solid
+		border-color: $accent rgba( 198, 198, 198, 0.5 ) rgba( 198, 198, 198, 0.5 )
+		border-width: 4px
+		animation: loading-spin .7s infinite linear
+	&::after
+		content: ''
+		background-color: rgba(255,255,255,.8)
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+		border-radius: 10px
+		z-index: 9
+		opacity: 0
+		visibility: hidden
+	&.loading
+		&::before, &::after
+			opacity: 1
+			visibility: visible
+
+
+
+.d-none
+	display: none
+
+
+
+.popup-form
+	margin: auto
+
+.mfp-close-btn-in .mfp-close
+	color: #000
+	background-color: #fff
+	width: 25px
+	height: 25px
+	line-height: 25px
+	margin-top: 10px
+	margin-right: 10px
+	&:focus
+		outline: none
+
+.mfp-close
+	outline: none !important
+
+
+
+.success
+	position: absolute
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+	border-radius: 10px
+	text-align: center
+	z-index: 6
+	font-weight: 300
+	background-color: #fff
+	align-items: center
+	justify-content: center
+	padding: 5px 45px
+	box-sizing: border-box
+	display: none
+	p
+		span
+			color: $accent
+			font-size: 30px
+			margin-bottom: 0
+			line-height: 1
+			span
+				color: #fff
+				font-size: 20px
+				font-weight: 400
+				margin-top: 25px
+	&.visible
+		display: flex
+
+
+@-webkit-keyframes loading-spin
+	from
+		transform: rotateZ(0deg)
+
+	to
+		transform: rotateZ(360deg)
+
+
+@keyframes loading-spin
+	from
+		transform: rotateZ(0deg)
+
+	to
+		transform: rotateZ(360deg)
+
+.spinner
+	position: relative
+	
+
+
+@import "media" // Always at the end
