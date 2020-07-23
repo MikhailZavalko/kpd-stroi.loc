@@ -1,0 +1,1 @@
+[Thu Jul 23 16:15:53.081703 2020] [autoindex:error] [pid 770] [client 127.0.0.1:52010] AH01276: Cannot serve directory /Users/mihailzavalko/Yandex.Disk.localized/WORK/sites/kpd-stroi.loc/wp-admin/: No matching DirectoryIndex (index.html,index.html,index.php) found, and server-generated directory index forbidden by Options directive
