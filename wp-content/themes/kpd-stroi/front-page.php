@@ -448,6 +448,147 @@ get_header(); ?>
 			</div>
 
 		</div>
+
+		
+
+		<div class="tabs houses reverse-sm">
+				<div class="tab-contents">
+
+					<div class="tab-content active" data-tab="small">
+
+						<div class="name-image">
+							<h3>Классика</h3>
+							<a href="<?php echo $template_url; ?>/img/houses/classic_1/1.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_1/1.jpg) center; background-size: cover;" data-fancybox="house-classic_1"></a>
+						</div>
+
+						<div class="text">
+							<h2>ДОМ 6х8</h2>
+							<h3>Общая площадь = 106,59 м<sup><small>2</small></sup></h3>
+							<ul>
+								<li>Каменный надежный дом</li>
+								<li>Центральная вода</li>
+								<li>Шамбо 10 м<sup><small>3</small></sup></li>
+								<li>Кровля четырехскатная, стропильная система + металлочерепица</li>
+								<li>Лестница межэтажная деревянная</li>
+								<li>Окна ПВХ, входная утепленная дверь</li>
+								<li>Фасадное покрытие Терракот стандарт</li>
+								<li>Стояки холодного водоснабжения и канализации</li>
+								<li>Подключение к сетям вентиляции</li>
+								<li>Крыльцо</li>
+								<li>Два балкона</li>
+								<li>Внутренняя отделка: заделка стеновых швов штукатуркой, стяжка пола</li>
+								<li>Земельный участок <br>в собственности - 10 соток</li>
+								<li>Закрытая огоженная территория <br>(общий забор)</li>
+								<li>Грантия 50 лет!</li>
+							</ul>
+							<p>Двухэтажный коттедж для тех, кто выбирает старую добрую классику. Объемные колонны, шикарные балконы, оформленные художественной ковкой. Для многих мечта всей жизни - создание родового гнезда. Коттедж “Классика” - место, где будут жить поколения вашей семьи. <br>Жить и гордиться своим домом.</p>
+							<h2>Стоимость: 5.35 <small>млн. ₽</small></h2>
+						</div>
+
+						<div class="d-none">
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/2.jpg" data-fancybox="house-classic_1" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/2.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/3.jpg" data-fancybox="house-classic_1" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/3.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/4.jpg" data-fancybox="house-classic_1" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/4.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/5.jpg" data-fancybox="house-classic_1" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/5.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/scheme.jpg" data-fancybox="house-classic_1" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/scheme.jpg"></a>
+						</div>
+
+					</div>
+
+					<div class="tab-content" data-tab="medium">
+
+						<div class="name-image">
+							<h3>Классика</h3>
+							<a href="<?php echo $template_url; ?>/img/houses/classic_2/1.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_2/1.jpg) center; background-size: cover;" data-fancybox="house-classic_2"></a>
+						</div>
+
+						<div class="text">
+							<h2>ДОМ 8х8</h2>
+							<h3>Общая площадь = 138,74 м<sup><small>2</small></sup></h3>
+							<ul>
+								<li>Каменный надежный дом</li>
+								<li>Центральная вода</li>
+								<li>Шамбо 10 м<sup><small>3</small></sup></li>
+								<li>Кровля четырехскатная, стропильная система + металлочерепица</li>
+								<li>Лестница межэтажная деревянная</li>
+								<li>Окна ПВХ, входная утепленная дверь</li>
+								<li>Фасадное покрытие Терракот стандарт</li>
+								<li>Стояки холодного водоснабжения и канализации</li>
+								<li>Подключение к сетям вентиляции</li>
+								<li>Крыльцо</li>
+								<li>Два балкона</li>
+								<li>Внутренняя отделка: заделка стеновых швов штукатуркой, стяжка пола</li>
+								<li>Земельный участок <br>в собственности - 10 соток</li>
+								<li>Закрытая огоженная территория <br>(общий забор)</li>
+								<li>Грантия 50 лет!</li>
+							</ul>
+							<p>Двухэтажный коттедж для тех, кто выбирает старую добрую классику. Объемные колонны, шикарные балконы, оформленные художественной ковкой. Для многих мечта всей жизни - создание родового гнезда. Коттедж “Классика” - место, где будут жить поколения вашей семьи. <br>Жить и гордиться своим домом.</p>
+							<h2>Стоимость: 6.12 <small>млн. ₽</small></h2>
+						</div>
+
+						<div class="d-none">
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_2/2.jpg" data-fancybox="house-classic_2" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/2.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_2/3.jpg" data-fancybox="house-classic_2" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/3.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_2/4.jpg" data-fancybox="house-classic_2" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/4.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_2/5.jpg" data-fancybox="house-classic_2" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/5.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_2/scheme.jpg" data-fancybox="house-classic_2" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/scheme.jpg"></a>
+						</div>
+
+					</div>
+
+					<div class="tab-content" data-tab="big">
+
+						<div class="name-image">
+							<h3>Классика</h3>
+							<a href="<?php echo $template_url; ?>/img/houses/classic_3/1.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_3/1.jpg) center; background-size: cover;" data-fancybox="house-classic_3"></a>
+						</div>
+
+						<div class="text">
+							<h2>ДОМ 8х10</h2>
+							<h3>Общая площадь = 171,27 м<sup><small>2</small></sup></h3>
+							<ul>
+								<li>Каменный надежный дом</li>
+								<li>Центральная вода</li>
+								<li>Шамбо 10 м<sup><small>3</small></sup></li>
+								<li>Кровля четырехскатная, стропильная система + металлочерепица</li>
+								<li>Лестница межэтажная деревянная</li>
+								<li>Окна ПВХ, входная утепленная дверь</li>
+								<li>Фасадное покрытие Терракот стандарт</li>
+								<li>Стояки холодного водоснабжения и канализации</li>
+								<li>Подключение к сетям вентиляции</li>
+								<li>Крыльцо</li>
+								<li>Два балкона</li>
+								<li>Внутренняя отделка: заделка стеновых швов штукатуркой, стяжка пола</li>
+								<li>Земельный участок <br>в собственности - 10 соток</li>
+								<li>Закрытая огоженная территория <br>(общий забор)</li>
+								<li>Грантия 50 лет!</li>
+							</ul>
+							<p>Двухэтажный коттедж для тех, кто выбирает старую добрую классику. Объемные колонны, шикарные балконы, оформленные художественной ковкой. Для многих мечта всей жизни - создание родового гнезда. Коттедж “Классика” - место, где будут жить поколения вашей семьи. <br>Жить и гордиться своим домом.</p>
+							<h2>Стоимость: 6.67 <small>млн. ₽</small></h2>
+						</div>
+
+						<div class="d-none">
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/2.jpg" data-fancybox="house-classic_3" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/2.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/3.jpg" data-fancybox="house-classic_3" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/3.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/4.jpg" data-fancybox="house-classic_3" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/4.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/5.jpg" data-fancybox="house-classic_3" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/5.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/scheme.jpg" data-fancybox="house-classic_3" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/scheme.jpg"></a>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="tab-btns">
+					<button class="tab-btn active" data-tab="small">6х8</button>
+					<button class="tab-btn" data-tab="medium">8х8</button>
+					<button class="tab-btn" data-tab="big">8х10</button>
+				</div>
+
+			</div>
+
+
+
 	</div>
 
 </section>
@@ -654,7 +795,7 @@ get_header(); ?>
 				<li>В коттеджах нет соседей – поэтому вопрос о шумоизоляции не стоит</li>
 			</ul>
 		</div>
-		
+
 		<a href="<?php echo $template_url; ?>/img/techmology.jpg" class="technology-image image zoom-img" data-fancybox>
 			<img src="<?php echo $template_url; ?>/img/techmology.jpg" alt="technology" class="img-responsive">
 		</a>

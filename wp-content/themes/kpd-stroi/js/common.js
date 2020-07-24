@@ -57,7 +57,7 @@ $(function() {
 
 
 	/* FANCYBOX SETTINGS */
-	$('.fancybox, .certificate').fancybox({
+	$('.fancybox, .certificate, .open-map').fancybox({
 		thumbs : {
 			autoStart : true,
 			axis : 'x'
@@ -68,7 +68,7 @@ $(function() {
 
 
 	/* MENU TRIGGER FOR SCROLL */
-	$(".menu li a, .logo, .footer-link").click(function () {
+	$(".menu li a, .logo").click(function () {
 		elementClick = $(this).attr("href");
 		destination = $(elementClick).offset().top -70;
 		destination = elementClick == '#home' ? destination - 50 : destination;
@@ -194,6 +194,24 @@ $(function() {
 				behaviors: ["drag", "dblClickZoom"]
 			}),
 			depMarker = new ymaps.Placemark([48.514879, 135.190759],{ hintContent: "п. Семейный" },
+			{
+				iconLayout: "default#image",
+				// iconImageHref: "../wp-content/themes/kpd-stroi/img/pin.svg",
+				iconImageHref: "../wp-content/themes/kpd-stroi/img/pin.svg",
+				iconImageSize: [50, 50],
+				iconImageOffset: [-25, -50]
+			});
+			salesDep.geoObjects.add(depMarker);
+		}
+
+		if( document.getElementById('mapSales') ) {
+			var salesDep = new ymaps.Map("mapSales",{
+				center: [48.471580, 135.066150],
+				zoom: 16,
+				controls: ['zoomControl'],
+				behaviors: ["drag", "dblClickZoom"]
+			}),
+			depMarker = new ymaps.Placemark([48.471580, 135.066150],{ hintContent: "Отдел продаж п.Семейный" },
 			{
 				iconLayout: "default#image",
 				// iconImageHref: "../wp-content/themes/kpd-stroi/img/pin.svg",
