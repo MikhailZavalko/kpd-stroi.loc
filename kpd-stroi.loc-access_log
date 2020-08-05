@@ -188,3 +188,16 @@
 127.0.0.1 - - [05/Aug/2020:14:18:01 +1000] "GET /wp-content/themes/kpd-stroi/fonts/RobotoLight/RobotoLight.ttf HTTP/1.1" 404 19193
 127.0.0.1 - - [05/Aug/2020:14:18:02 +1000] "GET /wp-content/themes/kpd-stroi/fonts/RobotoMedium/RobotoMedium.ttf HTTP/1.1" 404 19193
 127.0.0.1 - - [05/Aug/2020:14:18:03 +1000] "GET /wp-content/themes/kpd-stroi/img/favicon/favicon.ico HTTP/1.1" 200 9662
+127.0.0.1 - - [05/Aug/2020:16:22:50 +1000] "POST /wp-cron.php?doing_wp_cron=1596608570.0507199764251708984375 HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2020:16:22:48 +1000] "GET / HTTP/1.1" 200 81040
+127.0.0.1 - - [05/Aug/2020:16:22:51 +1000] "GET /wp-content/themes/kpd-stroi/assets/js/jquery.scrollTo.js?ver=2.1.2 HTTP/1.1" 404 19193
+127.0.0.1 - - [05/Aug/2020:16:22:52 +1000] "GET /wp-content/themes/kpd-stroi/fonts/RobotoThin/RobotoThin.woff HTTP/1.1" 404 19193
+127.0.0.1 - - [05/Aug/2020:16:22:52 +1000] "GET /wp-content/themes/kpd-stroi/fonts/RobotoBold/RobotoBold.woff HTTP/1.1" 404 19193
+127.0.0.1 - - [05/Aug/2020:16:22:52 +1000] "GET /wp-content/themes/kpd-stroi/fonts/RobotoMedium/RobotoMedium.woff HTTP/1.1" 404 19193
+127.0.0.1 - - [05/Aug/2020:16:22:52 +1000] "GET /wp-content/themes/kpd-stroi/fonts/RobotoLight/RobotoLight.woff HTTP/1.1" 404 19193
+127.0.0.1 - - [05/Aug/2020:16:22:52 +1000] "GET /wp-content/themes/kpd-stroi/fonts/RobotoRegular/RobotoRegular.woff HTTP/1.1" 404 19193
+127.0.0.1 - - [05/Aug/2020:16:22:53 +1000] "GET /wp-content/themes/kpd-stroi/fonts/RobotoBold/RobotoBold.ttf HTTP/1.1" 404 19193
+127.0.0.1 - - [05/Aug/2020:16:22:53 +1000] "GET /wp-content/themes/kpd-stroi/fonts/RobotoThin/RobotoThin.ttf HTTP/1.1" 404 19193
+127.0.0.1 - - [05/Aug/2020:16:22:54 +1000] "GET /wp-content/themes/kpd-stroi/fonts/RobotoRegular/RobotoRegular.ttf HTTP/1.1" 404 19193
+127.0.0.1 - - [05/Aug/2020:16:22:54 +1000] "GET /wp-content/themes/kpd-stroi/fonts/RobotoMedium/RobotoMedium.ttf HTTP/1.1" 404 19193
+127.0.0.1 - - [05/Aug/2020:16:22:54 +1000] "GET /wp-content/themes/kpd-stroi/fonts/RobotoLight/RobotoLight.ttf HTTP/1.1" 404 19193
