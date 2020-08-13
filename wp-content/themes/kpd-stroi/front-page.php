@@ -180,7 +180,7 @@ get_header(); ?>
 <section class="houses-section" id="our-homes">
 		<div class="container">
 
-			<div class="tabs houses four-tab-buttons">
+			<div class="tabs houses">
 
 				<div class="tab-contents">
 
@@ -219,7 +219,7 @@ get_header(); ?>
 								<li>Закрытая огороженная территория <br>(общий забор)</li>
 								<li>Гарантия 50 лет!</li>
 							</ul>
-							<p>Коттедж для тех, кто ценит простоту и практичность. Архитектура дома - без лишних деталей. Жители коттеджа “Народный” получат ощущение теплоты, комфорта и защищености на долгие годы. А мансардный этаж позволит воплотить самые смелые эксперименты в области дизайна интерьера.</p>
+							<p>Коттедж для тех, кто ценит простоту и практичность. Архитектура дома - без лишних деталей. Жители коттеджа “Народный” получат ощущение теплоты, комфорта и защищености на долгие годы.</p>
 							<h2>Стоимость: 4.15 <small>млн. ₽</small></h2>
 						</div>
 
@@ -256,7 +256,7 @@ get_header(); ?>
 								<li>Закрытая огороженная территория <br>(общий забор)</li>
 								<li>Гарантия 50 лет!</li>
 							</ul>
-							<p>Коттедж для тех, кто ценит простоту и практичность. Архитектура дома - без лишних деталей. Жители коттеджа “Народный” получат ощущение теплоты, комфорта и защищености на долгие годы. А мансардный этаж позволит воплотить самые смелые эксперименты в области дизайна интерьера.</p>
+							<p>Коттедж для тех, кто ценит простоту и практичность. Архитектура дома - без лишних деталей. Жители коттеджа “Народный” получат ощущение теплоты, комфорта и защищености на долгие годы.</p>
 							<h2>Стоимость: 4.69 <small>млн. ₽</small></h2>
 						</div>
 
@@ -293,21 +293,21 @@ get_header(); ?>
 								<li>Закрытая огороженная территория <br>(общий забор)</li>
 								<li>Гарантия 50 лет!</li>
 							</ul>
-							<p>Коттедж для тех, кто ценит простоту и практичность. Архитектура дома - без лишних деталей. Жители коттеджа “Народный” получат ощущение теплоты, комфорта и защищености на долгие годы. А мансардный этаж позволит воплотить самые смелые эксперименты в области дизайна интерьера.</p>
+							<p>Коттедж для тех, кто ценит простоту и практичность. Архитектура дома - без лишних деталей. Жители коттеджа “Народный” получат ощущение теплоты, комфорта и защищености на долгие годы.</p>
 							<h2>Стоимость: 5.25 <small>млн. ₽</small></h2>
 						</div>
 					</div>
 
 
-					<div class="tab-content" data-tab="premium">
+					<!-- <div class="tab-content" data-tab="premium">
 
 						<div class="name-image">
 							<h3>Народный дом</h3>
-							<a href="<?php echo $template_url; ?>/img/houses/people_4/scheme.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/people_4/sm.jpg) center; background-size: cover;" data-fancybox="house-people_4"></a>
+							<a href="<?php// echo $template_url; ?>/img/houses/people_4/scheme.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/people_4/sm.jpg) center; background-size: cover;" data-fancybox="house-people_4"></a>
 						</div>
 
 						<div class="d-none">
-							<!-- <a class="image fancybox" href="img/houses/standart_3/2.jpg" data-fancybox="house-standart_3" data-thumb="img/houses/standart_3/2.jpg"></a> -->
+							<a class="image fancybox" href="img/houses/standart_3/2.jpg" data-fancybox="house-standart_3" data-thumb="img/houses/standart_3/2.jpg"></a>
 						</div>
 
 						<div class="text">
@@ -329,11 +329,11 @@ get_header(); ?>
 								<li>Закрытая огороженная территория <br>(общий забор)</li>
 								<li>Гарантия 50 лет!</li>
 							</ul>
-							<p>Коттедж для тех, кто ценит простоту и практичность. Архитектура дома - без лишних деталей. Жители коттеджа “Народный” получат ощущение теплоты, комфорта и защищености на долгие годы. А мансардный этаж позволит воплотить самые смелые эксперименты в области дизайна интерьера.</p>
+							<p>Коттедж для тех, кто ценит простоту и практичность. Архитектура дома - без лишних деталей. Жители коттеджа “Народный” получат ощущение теплоты, комфорта и защищености на долгие годыю</p>
 							<h2>Стоимость: 6.35 <small>млн. ₽</small></h2>
 						</div>
 
-					</div>
+					</div> -->
 
 				</div>
 
@@ -341,7 +341,7 @@ get_header(); ?>
 					<button class="tab-btn active" data-tab="small">6х6</button>
 					<button class="tab-btn" data-tab="medium">9х6</button>
 					<button class="tab-btn" data-tab="big">8х9</button>
-					<button class="tab-btn" data-tab="premium">8х10</button>
+					<!-- <button class="tab-btn" data-tab="premium">8х10</button> -->
 				</div>
 
 			</div>
@@ -377,7 +377,7 @@ get_header(); ?>
 	<section class="houses-section" id="our-homes">
 		<div class="container">
 
-			<div class="tabs houses reverse four-tab-buttons">
+			<div class="tabs houses reverse">
 
 				<div class="tab-contents">
 
@@ -491,7 +491,7 @@ get_header(); ?>
 
 					</div>
 
-					<div class="tab-content" data-tab="premium">
+					<!-- <div class="tab-content" data-tab="premium">
 
 						<div class="text">
 							<h2>ДОМ 8х10</h2>
@@ -519,14 +519,14 @@ get_header(); ?>
 
 						<div class="name-image">
 							<h3>Классика</h3>
-							<a href="<?php echo $template_url; ?>/img/houses/classic_4/scheme.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_4/sm.jpg) center; background-size: cover;" data-fancybox="house-classic_4"></a>
+							<a href="<?php// echo $template_url; ?>/img/houses/classic_4/scheme.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/classic_4/sm.jpg) center; background-size: cover;" data-fancybox="house-classic_4"></a>
 						</div>
 
 						<div class="d-none">
-							<!-- <a class="image fancybox" href="img/houses/classic_3/2.jpg" data-fancybox="house-classic_3" data-thumb="img/houses/classic_2/2.jpg"></a> -->
+							<a class="image fancybox" href="img/houses/classic_3/2.jpg" data-fancybox="house-classic_3" data-thumb="img/houses/classic_2/2.jpg"></a>
 						</div>
 
-					</div>
+					</div> -->
 
 				</div>
 
@@ -534,7 +534,7 @@ get_header(); ?>
 					<button class="tab-btn active" data-tab="small">6х6</button>
 					<button class="tab-btn" data-tab="medium">9х6</button>
 					<button class="tab-btn" data-tab="big">8х9</button>
-					<button class="tab-btn" data-tab="premium">8х10</button>
+					<!-- <button class="tab-btn" data-tab="premium">8х10</button> -->
 				</div>
 
 			</div>
@@ -661,11 +661,11 @@ get_header(); ?>
 
 					</div>
 
-					<div class="tab-content" data-tab="premium">
+					<!-- <div class="tab-content" data-tab="premium">
 
 						<div class="name-image">
 							<h3>Классика</h3>
-							<a href="<?php echo $template_url; ?>/img/houses/classic_4/scheme.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_4/sm.jpg) center; background-size: cover;" data-fancybox="house-classic_4_sm"></a>
+							<a href="<?php// echo $template_url; ?>/img/houses/classic_4/scheme.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/classic_4/sm.jpg) center; background-size: cover;" data-fancybox="house-classic_4_sm"></a>
 						</div>
 
 						<div class="text">
@@ -693,10 +693,10 @@ get_header(); ?>
 						</div>
 
 						<div class="d-none">
-							<!-- <a class="image fancybox" href="img/houses/classic_3/2.jpg" data-fancybox="house-classic_3" data-thumb="img/houses/classic_2/2.jpg"></a> -->
+							<a class="image fancybox" href="img/houses/classic_3/2.jpg" data-fancybox="house-classic_3" data-thumb="img/houses/classic_2/2.jpg"></a>
 						</div>
 
-					</div>
+					</div> -->
 
 				</div>
 
@@ -704,7 +704,7 @@ get_header(); ?>
 					<button class="tab-btn active" data-tab="small">6х6</button>
 					<button class="tab-btn" data-tab="medium">9х6</button>
 					<button class="tab-btn" data-tab="big">8х9</button>
-					<button class="tab-btn" data-tab="premium">8х10</button>
+					<!-- <button class="tab-btn" data-tab="premium">8х10</button> -->
 				</div>
 
 			</div>
