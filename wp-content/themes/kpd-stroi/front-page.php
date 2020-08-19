@@ -204,23 +204,25 @@ get_header(); ?>
 							<h2>Дом 6х6</h2>
 							<h3>Общая площадь 90,04 м<sup><small>2</small></sup></h3>
 							<ul>
-								<li>Каменный надежный дом</li>
-								<li>Центральная вода</li>
-								<li>Шамбо 10 м<sup><small>3</small></sup></li>
-								<li>Лестница межэтажная деревянная</li>
+								<li>Фундамент буронабивной от 3 до 4м глубиной</li>
+								<li>Кровля -  односкатная под уклоном, устройство рулонной кровли</li>
+								<li>Перекрытия: ребристые ж/б плиты с утеплением на 1 этаже + бетон;  деревянное межэтажное перекрытие, ребристые ж/б плиты перекрытия с утеплением на кровле</li>
+								<li>Трехслойные стеновые панели с утеплением: внешний фасад - бетон 6см + утеплитель 15см + бетон 8см</li>
 								<li>Окна ПВХ, входная утепленная дверь</li>
-								<li>Фасадное покрытие Терракот стандарт</li>
-								<li>Стояки холодного водоснабжения и канализации</li>
-								<li>Подключение к сетям вентиляции</li>
-								<li>Крыльцо</li>
-								<li>Два балкона</li>
-								<li>Внутренняя отделка: заделка стеновых швов штукатуркой, стяжка пола</li>
-								<li>Земельный участок <br>в собственности - 10 соток</li>
-								<li>Закрытая огороженная территория <br>(общий забор)</li>
-								<li>Гарантия 50 лет!</li>
+								<li>Вентиляция</li>
+								<li>Лестница межэтажная деревянная с состариванием и шлифованием</li>
+								<li>Фасад - под каменные блоки, окрас в цвет - на выбор клиента</li>
+								<li>Стояки холодного водоснабжения  и канализации, подключение к сетям</li>
+								<li>Крыльцо,  балконы с ограждением - ковка</li>
+								<li>Внутренняя отделка: <strong>чистовая отделка</strong>, шпатлевка внешних стен</li>
+								<li>Закрытая огороженная территория (общий забор)</li>
+								<li>Земельный участок в собственности от 10 соток</li>
+								<li>Центральная вода</li>
+								<li>Шамбо - 10 кубов</li>
+								<li>Отопление - электрические радиаторы</li>
 							</ul>
 							<p>Коттедж для тех, кто ценит простоту и практичность. Архитектура дома - без лишних деталей. Жители коттеджа “Народный” получат ощущение теплоты, комфорта и защищености на долгие годы.</p>
-							<h2>Стоимость: 4.15 <small>млн. ₽</small></h2>
+							<h2>Стоимость: 4.20 <small>млн. ₽</small></h2>
 						</div>
 
 					</div>
@@ -241,23 +243,25 @@ get_header(); ?>
 							<h2>Дом 9х6</h2>
 							<h3>Общая площадь = 120,54 м<sup><small>2</small></sup></h3>
 							<ul>
-								<li>Каменный надежный дом</li>
-								<li>Центральная вода</li>
-								<li>Шамбо 10 м<sup><small>3</small></sup></li>
-								<li>Лестница межэтажная деревянная</li>
+								<li>Фундамент буронабивной от 3 до 4м глубиной</li>
+								<li>Кровля -  односкатная под уклоном, устройство рулонной кровли</li>
+								<li>Перекрытия: ребристые ж/б плиты с утеплением на 1 этаже + бетон;  деревянное межэтажное перекрытие, ребристые ж/б плиты перекрытия с утеплением на кровле</li>
+								<li>Трехслойные стеновые панели с утеплением: внешний фасад - бетон 6см + утеплитель 15см + бетон 8см</li>
 								<li>Окна ПВХ, входная утепленная дверь</li>
-								<li>Фасадное покрытие Терракот стандарт</li>
-								<li>Стояки холодного водоснабжения и канализации</li>
-								<li>Подключение к сетям вентиляции</li>
-								<li>Крыльцо</li>
-								<li>Два балкона</li>
-								<li>Внутренняя отделка: заделка стеновых швов штукатуркой, стяжка пола</li>
-								<li>Земельный участок <br>в собственности - 10 соток</li>
-								<li>Закрытая огороженная территория <br>(общий забор)</li>
-								<li>Гарантия 50 лет!</li>
+								<li>Вентиляция</li>
+								<li>Лестница межэтажная деревянная с состариванием и шлифованием</li>
+								<li>Фасад - под каменные блоки, окрас в цвет - на выбор клиента</li>
+								<li>Стояки холодного водоснабжения  и канализации, подключение к сетям</li>
+								<li>Крыльцо,  балконы с ограждением - ковка</li>
+								<li>Внутренняя отделка: <strong>чистовая отделка</strong>, шпатлевка внешних стен</li>
+								<li>Закрытая огороженная территория (общий забор)</li>
+								<li>Земельный участок в собственности от 10 соток</li>
+								<li>Центральная вода</li>
+								<li>Шамбо - 10 кубов</li>
+								<li>Отопление - электрические радиаторы</li>
 							</ul>
 							<p>Коттедж для тех, кто ценит простоту и практичность. Архитектура дома - без лишних деталей. Жители коттеджа “Народный” получат ощущение теплоты, комфорта и защищености на долгие годы.</p>
-							<h2>Стоимость: 4.69 <small>млн. ₽</small></h2>
+							<h2>Стоимость: 4.80 <small>млн. ₽</small></h2>
 						</div>
 
 					</div>
@@ -278,23 +282,25 @@ get_header(); ?>
 							<h2>Дом 8х9</h2>
 							<h3>Общая площадь = 150,19 м<sup><small>2</small></sup></h3>
 							<ul>
-								<li>Каменный надежный дом</li>
-								<li>Центральная вода</li>
-								<li>Шамбо 10 м<sup><small>3</small></sup></li>
-								<li>Лестница межэтажная деревянная</li>
+								<li>Фундамент буронабивной от 3 до 4м глубиной</li>
+								<li>Кровля -  односкатная под уклоном, устройство рулонной кровли</li>
+								<li>Перекрытия: ребристые ж/б плиты с утеплением на 1 этаже + бетон;  деревянное межэтажное перекрытие, ребристые ж/б плиты перекрытия с утеплением на кровле</li>
+								<li>Трехслойные стеновые панели с утеплением: внешний фасад - бетон 6см + утеплитель 15см + бетон 8см</li>
 								<li>Окна ПВХ, входная утепленная дверь</li>
-								<li>Фасадное покрытие Терракот стандарт</li>
-								<li>Стояки холодного водоснабжения и канализации</li>
-								<li>Подключение к сетям вентиляции</li>
-								<li>Крыльцо</li>
-								<li>Два балкона</li>
-								<li>Внутренняя отделка: заделка стеновых швов штукатуркой, стяжка пола</li>
-								<li>Земельный участок <br>в собственности - 10 соток</li>
-								<li>Закрытая огороженная территория <br>(общий забор)</li>
-								<li>Гарантия 50 лет!</li>
+								<li>Вентиляция</li>
+								<li>Лестница межэтажная деревянная с состариванием и шлифованием</li>
+								<li>Фасад - под каменные блоки, окрас в цвет - на выбор клиента</li>
+								<li>Стояки холодного водоснабжения  и канализации, подключение к сетям</li>
+								<li>Крыльцо,  балконы с ограждением - ковка</li>
+								<li>Внутренняя отделка: <strong>чистовая отделка</strong>, шпатлевка внешних стен</li>
+								<li>Закрытая огороженная территория (общий забор)</li>
+								<li>Земельный участок в собственности от 10 соток</li>
+								<li>Центральная вода</li>
+								<li>Шамбо - 10 кубов</li>
+								<li>Отопление - электрические радиаторы</li>
 							</ul>
 							<p>Коттедж для тех, кто ценит простоту и практичность. Архитектура дома - без лишних деталей. Жители коттеджа “Народный” получат ощущение теплоты, комфорта и защищености на долгие годы.</p>
-							<h2>Стоимость: 5.25 <small>млн. ₽</small></h2>
+							<h2>Стоимость: 5.39 <small>млн. ₽</small></h2>
 						</div>
 					</div>
 
@@ -386,33 +392,37 @@ get_header(); ?>
 							<h2>ДОМ 6х6</h2>
 							<h3>Общая площадь = 90,04 м<sup><small>2</small></sup></h3>
 							<ul>
-								<li>Каменный надежный дом</li>
-								<li>Центральная вода</li>
-								<li>Шамбо 10 м<sup><small>3</small></sup></li>
-								<li>Кровля четырехскатная, стропильная система + металлочерепица</li>
-								<li>Лестница межэтажная деревянная</li>
+								<li>Фундамент буронабивной от 3 до 4м глубиной</li>
+								<li>Фасад - под каменные блоки, окрас в цвет - на выбор клиента</li>
+								<li>Перекрытия: ребристые ж/б плиты с утеплением на 1 этаже + бетон;  межэтажное ж/б перекрытие, ребристые ж/б плиты перекрытия с утеплением на кровле</li>
+								<li>Кровля - стропильная система, четырехскатная холодная кровля с водосточной системой и подшивкой софитами</li>
+								<li>Вентиляция</li>
 								<li>Окна ПВХ, входная утепленная дверь</li>
-								<li>Фасадное покрытие Терракот стандарт</li>
-								<li>Стояки холодного водоснабжения и канализации</li>
-								<li>Подключение к сетям вентиляции</li>
-								<li>Крыльцо</li>
-								<li>Два балкона</li>
-								<li>Внутренняя отделка: заделка стеновых швов штукатуркой, стяжка пола</li>
-								<li>Земельный участок <br>в собственности - 10 соток</li>
-								<li>Закрытая огороженная территория <br>(общий забор)</li>
-								<li>Гарантия 50 лет!</li>
+								<li>Лестница межэтажная деревянная с состариванием и шлифованием</li>
+								<li>Стояки холодного водоснабжения  и канализации, подключение к сетям</li>
+								<li>Крыльцо,  балконы с ограждением - ковка</li>
+								<li>Внутренняя отделка: <strong>чистовая отделка</strong>, шпатлевка внешних стен</li>
+								<li>Закрытая огороженная территория (общий забор)</li>
+								<li>Земельный участок в собственности от 10 соток</li>
+								<li>Центральная вода</li>
+								<li>Шамбо - 10 кубов</li>
+								<li>Отопление - электрические радиаторы</li>
 							</ul>
 							<p>Двухэтажный коттедж для тех, кто выбирает старую добрую классику. Объемные колонны, шикарные балконы, оформленные художественной ковкой. Для многих мечта всей жизни - создание родового гнезда. Коттедж “Классика” - место, где будут жить поколения вашей семьи. <br>Жить и гордиться своим домом.</p>
-							<h2>Стоимость: 4.43 <small>млн. ₽</small></h2>
+							<h2>Стоимость: 4.50 <small>млн. ₽</small></h2>
 						</div>
 
 						<div class="name-image">
 							<h3>Классика</h3>
-							<a href="<?php echo $template_url; ?>/img/houses/classic_1/scheme.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_1/sm.jpg) center; background-size: cover;" data-fancybox="house-classic_1"></a>
+							<a href="<?php echo $template_url; ?>/img/houses/classic_1/1.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_1/sm.jpg) center; background-size: cover;" data-fancybox="house-classic_1"></a>
 						</div>
 
 						<div class="d-none">
-							<!-- <a class="image fancybox" href="img/houses/classic_1/2.jpg" data-fancybox="house-classic_1" data-thumb="img/houses/classic_1/2.jpg"></a> -->
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/2.jpg" data-fancybox="house-classic_1" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/2.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/3.jpg" data-fancybox="house-classic_1" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/3.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/4.jpg" data-fancybox="house-classic_1" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/4.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/5.jpg" data-fancybox="house-classic_1" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/5.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/scheme.jpg" data-fancybox="house-classic_1" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/scheme.jpg"></a>
 						</div>
 
 					</div>
@@ -423,33 +433,35 @@ get_header(); ?>
 							<h2>ДОМ 9х6</h2>
 							<h3>Общая площадь = 120,54 м<sup><small>2</small></sup></h3>
 							<ul>
-								<li>Каменный надежный дом</li>
-								<li>Центральная вода</li>
-								<li>Шамбо 10 м<sup><small>3</small></sup></li>
-								<li>Кровля четырехскатная, стропильная система + металлочерепица</li>
-								<li>Лестница межэтажная деревянная</li>
+								<li>Фундамент буронабивной от 3 до 4м глубиной</li>
+								<li>Фасад - под каменные блоки, окрас в цвет - на выбор клиента</li>
+								<li>Перекрытия: ребристые ж/б плиты с утеплением на 1 этаже + бетон;  межэтажное ж/б перекрытие, ребристые ж/б плиты перекрытия с утеплением на кровле</li>
+								<li>Кровля - стропильная система, четырехскатная холодная кровля с водосточной системой и подшивкой софитами</li>
+								<li>Вентиляция</li>
 								<li>Окна ПВХ, входная утепленная дверь</li>
-								<li>Фасадное покрытие Терракот стандарт</li>
-								<li>Стояки холодного водоснабжения и канализации</li>
-								<li>Подключение к сетям вентиляции</li>
-								<li>Крыльцо</li>
-								<li>Два балкона</li>
-								<li>Внутренняя отделка: заделка стеновых швов штукатуркой, стяжка пола</li>
-								<li>Земельный участок <br>в собственности - 10 соток</li>
-								<li>Закрытая огороженная территория <br>(общий забор)</li>
-								<li>Гарантия 50 лет!</li>
+								<li>Лестница межэтажная деревянная с состариванием и шлифованием</li>
+								<li>Стояки холодного водоснабжения  и канализации, подключение к сетям</li>
+								<li>Крыльцо,  балконы с ограждением - ковка</li>
+								<li>Внутренняя отделка: <strong>чистовая отделка</strong>, шпатлевка внешних стен</li>
+								<li>Закрытая огороженная территория (общий забор)</li>
+								<li>Земельный участок в собственности от 10 соток</li>
+								<li>Центральная вода</li>
+								<li>Шамбо - 10 кубов</li>
+								<li>Отопление - электрические радиаторы</li>
 							</ul>
 							<p>Двухэтажный коттедж для тех, кто выбирает старую добрую классику. Объемные колонны, шикарные балконы, оформленные художественной ковкой. Для многих мечта всей жизни - создание родового гнезда. Коттедж “Классика” - место, где будут жить поколения вашей семьи. <br>Жить и гордиться своим домом.</p>
-							<h2>Стоимость: 5.03 <small>млн. ₽</small></h2>
+							<h2>Стоимость: 5.10 <small>млн. ₽</small></h2>
 						</div>
 
 						<div class="name-image">
 							<h3>Классика</h3>
-							<a href="<?php echo $template_url; ?>/img/houses/classic_2/scheme.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_2/sm.jpg) center; background-size: cover;" data-fancybox="house-classic_2"></a>
+							<a href="<?php echo $template_url; ?>/img/houses/classic_2/1.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_2/sm.jpg) center; background-size: cover;" data-fancybox="house-classic_2"></a>
 						</div>
 
 						<div class="d-none">
-							<!-- <a class="image fancybox" href="img/houses/classic_2/2.jpg" data-fancybox="house-classic_2" data-thumb="img/houses/classic_2/2.jpg"></a> -->
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_2/2.jpg" data-fancybox="house-classic_2" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/2.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_2/3.jpg" data-fancybox="house-classic_2" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/3.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_2/scheme.jpg" data-fancybox="house-classic_2" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/scheme.jpg"></a>
 						</div>
 
 					</div>
@@ -460,33 +472,35 @@ get_header(); ?>
 							<h2>ДОМ 8х9</h2>
 							<h3>Общая площадь = 150,19 м<sup><small>2</small></sup></h3>
 							<ul>
-								<li>Каменный надежный дом</li>
-								<li>Центральная вода</li>
-								<li>Шамбо 10 м<sup><small>3</small></sup></li>
-								<li>Кровля четырехскатная, стропильная система + металлочерепица</li>
-								<li>Лестница межэтажная деревянная</li>
+								<li>Фундамент буронабивной от 3 до 4м глубиной</li>
+								<li>Фасад - под каменные блоки, окрас в цвет - на выбор клиента</li>
+								<li>Перекрытия: ребристые ж/б плиты с утеплением на 1 этаже + бетон;  межэтажное ж/б перекрытие, ребристые ж/б плиты перекрытия с утеплением на кровле</li>
+								<li>Кровля - стропильная система, четырехскатная холодная кровля с водосточной системой и подшивкой софитами</li>
+								<li>Вентиляция</li>
 								<li>Окна ПВХ, входная утепленная дверь</li>
-								<li>Фасадное покрытие Терракот стандарт</li>
-								<li>Стояки холодного водоснабжения и канализации</li>
-								<li>Подключение к сетям вентиляции</li>
-								<li>Крыльцо</li>
-								<li>Два балкона</li>
-								<li>Внутренняя отделка: заделка стеновых швов штукатуркой, стяжка пола</li>
-								<li>Земельный участок <br>в собственности - 10 соток</li>
-								<li>Закрытая огороженная территория <br>(общий забор)</li>
-								<li>Гарантия 50 лет!</li>
+								<li>Лестница межэтажная деревянная с состариванием и шлифованием</li>
+								<li>Стояки холодного водоснабжения  и канализации, подключение к сетям</li>
+								<li>Крыльцо,  балконы с ограждением - ковка</li>
+								<li>Внутренняя отделка: <strong>чистовая отделка</strong>, шпатлевка внешних стен</li>
+								<li>Закрытая огороженная территория (общий забор)</li>
+								<li>Земельный участок в собственности от 10 соток</li>
+								<li>Центральная вода</li>
+								<li>Шамбо - 10 кубов</li>
+								<li>Отопление - электрические радиаторы</li>
 							</ul>
 							<p>Двухэтажный коттедж для тех, кто выбирает старую добрую классику. Объемные колонны, шикарные балконы, оформленные художественной ковкой. Для многих мечта всей жизни - создание родового гнезда. Коттедж “Классика” - место, где будут жить поколения вашей семьи. <br>Жить и гордиться своим домом.</p>
-							<h2>Стоимость: 5.65 <small>млн. ₽</small></h2>
+							<h2>Стоимость: 5.79 <small>млн. ₽</small></h2>
 						</div>
 
 						<div class="name-image">
 							<h3>Классика</h3>
-							<a href="<?php echo $template_url; ?>/img/houses/classic_3/scheme.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_3/sm.jpg) center; background-size: cover;" data-fancybox="house-classic_3"></a>
+							<a href="<?php echo $template_url; ?>/img/houses/classic_3/1.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_3/sm.jpg) center; background-size: cover;" data-fancybox="house-classic_3"></a>
 						</div>
 
 						<div class="d-none">
-							<!-- <a class="image fancybox" href="img/houses/classic_3/2.jpg" data-fancybox="house-classic_3" data-thumb="img/houses/classic_2/2.jpg"></a> -->
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/2.jpg" data-fancybox="house-classic_3" data-thumb="<?php echo $template_url; ?>/img/houses/classic_3/2.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/3.jpg" data-fancybox="house-classic_3" data-thumb="<?php echo $template_url; ?>/img/houses/classic_3/3.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/scheme.jpg" data-fancybox="house-classic_3" data-thumb="<?php echo $template_url; ?>/img/houses/classic_3/scheme.jpg"></a>
 						</div>
 
 					</div>
@@ -554,35 +568,41 @@ get_header(); ?>
 
 						<div class="name-image">
 							<h3>Классика</h3>
-							<a href="<?php echo $template_url; ?>/img/houses/classic_1/scheme.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_1/sm.jpg) center; background-size: cover;" data-fancybox="house-classic_1_sm"></a>
+							<a href="<?php echo $template_url; ?>/img/houses/classic_1/1.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_1/sm.jpg) center; background-size: cover;" data-fancybox="house-classic_1_sm"></a>
 						</div>
 
 						<div class="text">
 							<h2>ДОМ 6х8</h2>
 							<h3>Общая площадь = 90,04 м<sup><small>2</small></sup></h3>
 							<ul>
-								<li>Каменный надежный дом</li>
-								<li>Центральная вода</li>
-								<li>Шамбо 10 м<sup><small>3</small></sup></li>
-								<li>Кровля четырехскатная, стропильная система + металлочерепица</li>
-								<li>Лестница межэтажная деревянная</li>
+								<li>Фундамент буронабивной от 3 до 4м глубиной</li>
+								<li>Фасад - под каменные блоки, окрас в цвет - на выбор клиента</li>
+								<li>Перекрытия: ребристые ж/б плиты с утеплением на 1 этаже + бетон;  межэтажное ж/б перекрытие, ребристые ж/б плиты перекрытия с утеплением на кровле</li>
+								<li>Кровля - стропильная система, четырехскатная холодная кровля с водосточной системой и подшивкой софитами</li>
+								<li>Вентиляция</li>
 								<li>Окна ПВХ, входная утепленная дверь</li>
-								<li>Фасадное покрытие Терракот стандарт</li>
-								<li>Стояки холодного водоснабжения и канализации</li>
-								<li>Подключение к сетям вентиляции</li>
-								<li>Крыльцо</li>
-								<li>Два балкона</li>
-								<li>Внутренняя отделка: заделка стеновых швов штукатуркой, стяжка пола</li>
-								<li>Земельный участок <br>в собственности - 10 соток</li>
-								<li>Закрытая огороженная территория <br>(общий забор)</li>
-								<li>Гарантия 50 лет!</li>
+								<li>Лестница межэтажная деревянная с состариванием и шлифованием</li>
+								<li>Стояки холодного водоснабжения  и канализации, подключение к сетям</li>
+								<li>Крыльцо,  балконы с ограждением - ковка</li>
+								<li>Внутренняя отделка: <strong>чистовая отделка</strong>, шпатлевка внешних стен</li>
+								<li>Закрытая огороженная территория (общий забор)</li>
+								<li>Земельный участок в собственности от 10 соток</li>
+								<li>Центральная вода</li>
+								<li>Шамбо - 10 кубов</li>
+								<li>Отопление - электрические радиаторы</li>
 							</ul>
 							<p>Двухэтажный коттедж для тех, кто выбирает старую добрую классику. Объемные колонны, шикарные балконы, оформленные художественной ковкой. Для многих мечта всей жизни - создание родового гнезда. Коттедж “Классика” - место, где будут жить поколения вашей семьи. <br>Жить и гордиться своим домом.</p>
 							<h2>Стоимость: 4.43 <small>млн. ₽</small></h2>
 						</div>
 
 						<div class="d-none">
-							<!-- <a class="image fancybox" href="img/houses/classic_1/2.jpg" data-fancybox="house-classic_1_sm" data-thumb="img/houses/classic_1/2.jpg"></a> -->
+							<div class="d-none">
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/2.jpg" data-fancybox="house-classic_1_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/2.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/3.jpg" data-fancybox="house-classic_1_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/3.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/4.jpg" data-fancybox="house-classic_1_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/4.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/5.jpg" data-fancybox="house-classic_1_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/5.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/scheme.jpg" data-fancybox="house-classic_1_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/scheme.jpg"></a>
+						</div>
 						</div>
 
 					</div>
@@ -591,35 +611,39 @@ get_header(); ?>
 
 						<div class="name-image">
 							<h3>Классика</h3>
-							<a href="<?php echo $template_url; ?>/img/houses/classic_2/scheme.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_2/sm.jpg) center; background-size: cover;" data-fancybox="house-classic_2_sm"></a>
+							<a href="<?php echo $template_url; ?>/img/houses/classic_2/1.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_2/sm.jpg) center; background-size: cover;" data-fancybox="house-classic_2_sm"></a>
 						</div>
 
 						<div class="text">
 							<h2>ДОМ 8х8</h2>
 							<h3>Общая площадь = 120,54 м<sup><small>2</small></sup></h3>
 							<ul>
-								<li>Каменный надежный дом</li>
-								<li>Центральная вода</li>
-								<li>Шамбо 10 м<sup><small>3</small></sup></li>
-								<li>Кровля четырехскатная, стропильная система + металлочерепица</li>
-								<li>Лестница межэтажная деревянная</li>
+								<li>Фундамент буронабивной от 3 до 4м глубиной</li>
+								<li>Фасад - под каменные блоки, окрас в цвет - на выбор клиента</li>
+								<li>Перекрытия: ребристые ж/б плиты с утеплением на 1 этаже + бетон;  межэтажное ж/б перекрытие, ребристые ж/б плиты перекрытия с утеплением на кровле</li>
+								<li>Кровля - стропильная система, четырехскатная холодная кровля с водосточной системой и подшивкой софитами</li>
+								<li>Вентиляция</li>
 								<li>Окна ПВХ, входная утепленная дверь</li>
-								<li>Фасадное покрытие Терракот стандарт</li>
-								<li>Стояки холодного водоснабжения и канализации</li>
-								<li>Подключение к сетям вентиляции</li>
-								<li>Крыльцо</li>
-								<li>Два балкона</li>
-								<li>Внутренняя отделка: заделка стеновых швов штукатуркой, стяжка пола</li>
-								<li>Земельный участок <br>в собственности - 10 соток</li>
-								<li>Закрытая огороженная территория <br>(общий забор)</li>
-								<li>Гарантия 50 лет!</li>
+								<li>Лестница межэтажная деревянная с состариванием и шлифованием</li>
+								<li>Стояки холодного водоснабжения  и канализации, подключение к сетям</li>
+								<li>Крыльцо,  балконы с ограждением - ковка</li>
+								<li>Внутренняя отделка: <strong>чистовая отделка</strong>, шпатлевка внешних стен</li>
+								<li>Закрытая огороженная территория (общий забор)</li>
+								<li>Земельный участок в собственности от 10 соток</li>
+								<li>Центральная вода</li>
+								<li>Шамбо - 10 кубов</li>
+								<li>Отопление - электрические радиаторы</li>
 							</ul>
 							<p>Двухэтажный коттедж для тех, кто выбирает старую добрую классику. Объемные колонны, шикарные балконы, оформленные художественной ковкой. Для многих мечта всей жизни - создание родового гнезда. Коттедж “Классика” - место, где будут жить поколения вашей семьи. <br>Жить и гордиться своим домом.</p>
 							<h2>Стоимость: 5.03 <small>млн. ₽</small></h2>
 						</div>
 
 						<div class="d-none">
-							<!-- <a class="image fancybox" href="img/houses/classic_2/2.jpg" data-fancybox="house-classic_2" data-thumb="img/houses/classic_2/2.jpg"></a> -->
+							<div class="d-none">
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_2/2.jpg" data-fancybox="house-classic_2_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/2.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_2/3.jpg" data-fancybox="house-classic_2_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/3.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_2/scheme.jpg" data-fancybox="house-classic_2_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/scheme.jpg"></a>
+						</div>
 						</div>
 
 					</div>
@@ -628,35 +652,37 @@ get_header(); ?>
 
 						<div class="name-image">
 							<h3>Классика</h3>
-							<a href="<?php echo $template_url; ?>/img/houses/classic_3/scheme.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_3/sm.jpg) center; background-size: cover;" data-fancybox="house-classic_3_sm"></a>
+							<a href="<?php echo $template_url; ?>/img/houses/classic_3/1.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_3/sm.jpg) center; background-size: cover;" data-fancybox="house-classic_3_sm"></a>
 						</div>
 
 						<div class="text">
 							<h2>ДОМ 8х10</h2>
 							<h3>Общая площадь = 150,19 м<sup><small>2</small></sup></h3>
 							<ul>
-								<li>Каменный надежный дом</li>
-								<li>Центральная вода</li>
-								<li>Шамбо 10 м<sup><small>3</small></sup></li>
-								<li>Кровля четырехскатная, стропильная система + металлочерепица</li>
-								<li>Лестница межэтажная деревянная</li>
+								<li>Фундамент буронабивной от 3 до 4м глубиной</li>
+								<li>Фасад - под каменные блоки, окрас в цвет - на выбор клиента</li>
+								<li>Перекрытия: ребристые ж/б плиты с утеплением на 1 этаже + бетон;  межэтажное ж/б перекрытие, ребристые ж/б плиты перекрытия с утеплением на кровле</li>
+								<li>Кровля - стропильная система, четырехскатная холодная кровля с водосточной системой и подшивкой софитами</li>
+								<li>Вентиляция</li>
 								<li>Окна ПВХ, входная утепленная дверь</li>
-								<li>Фасадное покрытие Терракот стандарт</li>
-								<li>Стояки холодного водоснабжения и канализации</li>
-								<li>Подключение к сетям вентиляции</li>
-								<li>Крыльцо</li>
-								<li>Два балкона</li>
-								<li>Внутренняя отделка: заделка стеновых швов штукатуркой, стяжка пола</li>
-								<li>Земельный участок <br>в собственности - 10 соток</li>
-								<li>Закрытая огороженная территория <br>(общий забор)</li>
-								<li>Гарантия 50 лет!</li>
+								<li>Лестница межэтажная деревянная с состариванием и шлифованием</li>
+								<li>Стояки холодного водоснабжения  и канализации, подключение к сетям</li>
+								<li>Крыльцо,  балконы с ограждением - ковка</li>
+								<li>Внутренняя отделка: <strong>чистовая отделка</strong>, шпатлевка внешних стен</li>
+								<li>Закрытая огороженная территория (общий забор)</li>
+								<li>Земельный участок в собственности от 10 соток</li>
+								<li>Центральная вода</li>
+								<li>Шамбо - 10 кубов</li>
+								<li>Отопление - электрические радиаторы</li>
 							</ul>
 							<p>Двухэтажный коттедж для тех, кто выбирает старую добрую классику. Объемные колонны, шикарные балконы, оформленные художественной ковкой. Для многих мечта всей жизни - создание родового гнезда. Коттедж “Классика” - место, где будут жить поколения вашей семьи. <br>Жить и гордиться своим домом.</p>
 							<h2>Стоимость: 5.65 <small>млн. ₽</small></h2>
 						</div>
 
 						<div class="d-none">
-							<!-- <a class="image fancybox" href="img/houses/classic_3/2.jpg" data-fancybox="house-classic_3" data-thumb="img/houses/classic_2/2.jpg"></a> -->
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/2.jpg" data-fancybox="house-classic_3_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/2.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/3.jpg" data-fancybox="house-classic_3_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/3.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/scheme.jpg" data-fancybox="house-classic_3_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/scheme.jpg"></a>
 						</div>
 
 					</div>
@@ -791,7 +817,7 @@ get_header(); ?>
 				<li>Наши панели идеальной геометрии – благодаря нашему новейшему оборудованию</li>
 				<li>Между нашими панелями швы минимальны – до 2см, которые мы дополнительно закрываем декоративными планками, тем самым мы улучшили теплоизоляцию</li>
 				<li>Монтаж утеплителя внутри панели производится на заводе, что исключает «пустоты», как при утеплении дома «по- старинке» на земельном участке.</li>
-				<li>Наши перекрытия – уникальны для России, они имеют сразу 3 слоя: ребристая плита, высокоэффективный утеплителя и бетонная стяжка.</li>
+				<li>Наши перекрытия – уникальны для России, они имеют сразу 3 слоя: ребристая плита, высокоэффективный утеплитель и бетонная стяжка.</li>
 				<li>В коттеджах нет соседей – поэтому вопрос о шумоизоляции не стоит</li>
 			</ul>
 		</div>
