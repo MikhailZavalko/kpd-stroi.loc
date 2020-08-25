@@ -496,7 +496,7 @@ get_header(); ?>
 
 						<div class="name-image">
 							<h3>Классика</h3>
-							<a href="<?php echo $template_url; ?>/img/houses/classic_3/1.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_3/sm.jpg?v=1.1) center; background-size: cover;" data-fancybox="house-classic_3"></a>
+							<a href="<?php echo $template_url; ?>/img/houses/classic_3/1.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_3/sm.jpg?v=1.2) center; background-size: cover;" data-fancybox="house-classic_3"></a>
 						</div>
 
 						<div class="d-none">
@@ -504,6 +504,7 @@ get_header(); ?>
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/3.jpg" data-fancybox="house-classic_3" data-thumb="<?php echo $template_url; ?>/img/houses/classic_3/3.jpg"></a>
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/4.jpg" data-fancybox="house-classic_3" data-thumb="<?php echo $template_url; ?>/img/houses/classic_3/4.jpg"></a>
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/5.jpg" data-fancybox="house-classic_3" data-thumb="<?php echo $template_url; ?>/img/houses/classic_3/5.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/6.jpg" data-fancybox="house-classic_3" data-thumb="<?php echo $template_url; ?>/img/houses/classic_3/6.jpg"></a>
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/scheme.jpg" data-fancybox="house-classic_3" data-thumb="<?php echo $template_url; ?>/img/houses/classic_3/scheme.jpg"></a>
 						</div>
 
@@ -658,7 +659,7 @@ get_header(); ?>
 
 						<div class="name-image">
 							<h3>Классика</h3>
-							<a href="<?php echo $template_url; ?>/img/houses/classic_3/1.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_3/sm.jpg?v=1.1) center; background-size: cover;" data-fancybox="house-classic_3_sm"></a>
+							<a href="<?php echo $template_url; ?>/img/houses/classic_3/1.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_3/sm.jpg?v=1.2) center; background-size: cover;" data-fancybox="house-classic_3_sm"></a>
 						</div>
 
 						<div class="text">
@@ -690,6 +691,7 @@ get_header(); ?>
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/3.jpg" data-fancybox="house-classic_3_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/3.jpg"></a>
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/4.jpg" data-fancybox="house-classic_3_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/4.jpg"></a>
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/5.jpg" data-fancybox="house-classic_3_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/5.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/6.jpg" data-fancybox="house-classic_3_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/6.jpg"></a>
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/scheme.jpg" data-fancybox="house-classic_3_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/scheme.jpg"></a>
 						</div>
 
