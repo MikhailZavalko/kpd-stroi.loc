@@ -848,27 +848,27 @@ get_header(); ?>
 		<div class="certificates-slider">
 
 			<a href="<?php echo $template_url; ?>/img/certificates/1.jpg" class="certificate zoom-img" data-fancybox="certificates">
-				<img src="<?php echo $template_url; ?>/img/certificates/1.jpg" alt="certificate" class="img-responsive">
+				<img src="<?php echo $template_url; ?>/img/certificates/1_sm.jpg" alt="certificate" class="img-responsive">
 			</a>
 
 			<a href="<?php echo $template_url; ?>/img/certificates/2.jpg" class="certificate zoom-img" data-fancybox="certificates">
-				<img src="<?php echo $template_url; ?>/img/certificates/2.jpg" alt="certificate" class="img-responsive">
+				<img src="<?php echo $template_url; ?>/img/certificates/2_sm.jpg" alt="certificate" class="img-responsive">
 			</a>
 
 			<a href="<?php echo $template_url; ?>/img/certificates/3.jpg" class="certificate zoom-img" data-fancybox="certificates">
-				<img src="<?php echo $template_url; ?>/img/certificates/3.jpg" alt="certificate" class="img-responsive">
+				<img src="<?php echo $template_url; ?>/img/certificates/3_sm.jpg" alt="certificate" class="img-responsive">
 			</a>
 
 			<a href="<?php echo $template_url; ?>/img/certificates/4.jpg" class="certificate zoom-img" data-fancybox="certificates">
-				<img src="<?php echo $template_url; ?>/img/certificates/4.jpg" alt="certificate" class="img-responsive">
+				<img src="<?php echo $template_url; ?>/img/certificates/4_sm.jpg" alt="certificate" class="img-responsive">
 			</a>
 
 			<a href="<?php echo $template_url; ?>/img/certificates/5.jpg" class="certificate zoom-img" data-fancybox="certificates">
-				<img src="<?php echo $template_url; ?>/img/certificates/5.jpg" alt="certificate" class="img-responsive">
+				<img src="<?php echo $template_url; ?>/img/certificates/5_sm.jpg" alt="certificate" class="img-responsive">
 			</a>
 
 			<a href="<?php echo $template_url; ?>/img/certificates/6.jpg" class="certificate zoom-img" data-fancybox="certificates">
-				<img src="<?php echo $template_url; ?>/img/certificates/6.jpg" alt="certificate" class="img-responsive">
+				<img src="<?php echo $template_url; ?>/img/certificates/6_sm.jpg" alt="certificate" class="img-responsive">
 			</a>
 
 		</div>
