@@ -18,7 +18,7 @@ $template_url = get_template_directory_uri();
 	<meta name="format-detection" content="telephone=no">
 	<meta name="yandex-verification" content="da6ea4bee5009428" />
 	<link rel="icon" type="image/x-icon" href="<?php echo $template_url; ?>/img/favicon/favicon.ico">
-	<link rel="stylesheet" id="main" href="<?php echo $template_url; ?>/css/main.min.css?v=1.2" type="text/css" media="all">
+	<link rel="stylesheet" id="main" href="<?php echo $template_url; ?>/css/main.min.css?v=1.4" type="text/css" media="all">
 	
 	<script type="text/javascript">
 		/* <![CDATA[ */
@@ -28,6 +28,25 @@ $template_url = get_template_directory_uri();
 	</script>
 
 	<?php wp_head(); ?>
+
+	<!-- Global site tag (gtag.js) - Google Ads: 666639972 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-666639972"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'AW-666639972');
+	</script>
+
+	<!-- Event snippet for Website sale conversion page -->
+	<script>
+		gtag('event', 'conversion', {
+			'send_to': 'AW-666639972/oIelCMfP7dwBEOS88L0C',
+			'transaction_id': ''
+		});
+	</script>
+
 
 </head>
 

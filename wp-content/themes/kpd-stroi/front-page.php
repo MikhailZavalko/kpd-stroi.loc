@@ -156,8 +156,11 @@ get_header(); ?>
 	<div class="container">
 		<h3 class="type-head">Генплан коттеджного поселка "Семейный"</h3>
 		<?php echo do_shortcode('[map]'); ?>
+		<div class="button-container">
+			<a href="#take-booking" class="top-button ripplelink open-form-button"><span>Забронировать участок</span></a>
+		</div>
 		<h3 class="type-head">Выбирайте коттедж своей мечты!</h3>
-		<p>Мы предлагаем вам три варианта дома. Каждый из них великолепен по-своему и представлен в трёх размерах. Колосальный опыт строительства позволил нам создать совершенные дома, в которых хочется жить.</p>
+		<p>Колосальный опыт строительства позволил нам создать совершенные дома, в которых хочется жить.</p>
 		<p>Здесь все продумано до мелочей: 2 санузла, французские окна на втором этаже, визуально увеличивающие пространство, просторные кухня и гостиная.</p>
 		<p>А главное, все это по стоимости обычной двухкомнатной квартиры в нашем городе. Преимущества жизни в своем доме очевидны.</p>
 	</div>
@@ -238,11 +241,15 @@ get_header(); ?>
 
 						<div class="name-image">
 							<h3>Народный дом</h3>
-							<a href="<?php echo $template_url; ?>/img/houses/people_2/scheme.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/people_2/sm.jpg) center; background-size: cover;" data-fancybox="house-people_2"></a>
+							<a href="<?php echo $template_url; ?>/img/houses/people_2/1.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/people_2/sm.jpg) center; background-size: cover;" data-fancybox="house-people_2"></a>
 						</div>
 
 						<div class="d-none">
-							<!-- <a class="image fancybox" href="img/houses/standart_2/2.jpg" data-fancybox="house-standart_2" data-thumb="img/houses/standart_2/2.jpg"></a> -->
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_2/2.jpg" data-fancybox="house-people_2" data-thumb="<?php echo $template_url; ?>/img/houses/people_2/2.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_2/3.jpg" data-fancybox="house-people_2" data-thumb="<?php echo $template_url; ?>/img/houses/people_2/3.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_2/4.jpg" data-fancybox="house-people_2" data-thumb="<?php echo $template_url; ?>/img/houses/people_2/4.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_2/5.jpg" data-fancybox="house-people_2" data-thumb="<?php echo $template_url; ?>/img/houses/people_2/5.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_2/scheme.jpg" data-fancybox="house-people_2" data-thumb="<?php echo $template_url; ?>/img/houses/people_2/scheme.jpg"></a>
 						</div>
 
 						<div class="text">
@@ -283,11 +290,17 @@ get_header(); ?>
 
 						<div class="name-image">
 							<h3>Народный дом</h3>
-							<a href="<?php echo $template_url; ?>/img/houses/people_3/scheme.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/people_3/sm.jpg) center; background-size: cover;" data-fancybox="house-people_3"></a>
+							<a href="<?php echo $template_url; ?>/img/houses/people_3/1.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/people_3/sm.jpg) center; background-size: cover;" data-fancybox="house-people_3"></a>
 						</div>
 
 						<div class="d-none">
-							<!-- <a class="image fancybox" href="img/houses/standart_3/2.jpg" data-fancybox="house-standart_3" data-thumb="img/houses/standart_3/2.jpg"></a> -->
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_3/2.jpg" data-fancybox="house-people_3" data-thumb="<?php echo $template_url; ?>/img/houses/people_3/2.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_3/3.jpg" data-fancybox="house-people_3" data-thumb="<?php echo $template_url; ?>/img/houses/people_3/3.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_3/4.jpg" data-fancybox="house-people_3" data-thumb="<?php echo $template_url; ?>/img/houses/people_3/4.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_3/5.jpg" data-fancybox="house-people_3" data-thumb="<?php echo $template_url; ?>/img/houses/people_3/5.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_3/6.jpg" data-fancybox="house-people_3" data-thumb="<?php echo $template_url; ?>/img/houses/people_3/6.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_3/7.jpg" data-fancybox="house-people_3" data-thumb="<?php echo $template_url; ?>/img/houses/people_3/7.jpg"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_3/scheme.jpg" data-fancybox="house-people_3" data-thumb="<?php echo $template_url; ?>/img/houses/people_3/scheme.jpg"></a>
 						</div>
 
 						<div class="text">
@@ -322,50 +335,12 @@ get_header(); ?>
 						</div>
 					</div>
 
-
-					<!-- <div class="tab-content" data-tab="premium">
-
-						<div class="name-image">
-							<h3>Народный дом</h3>
-							<a href="<?php// echo $template_url; ?>/img/houses/people_4/scheme.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/people_4/sm.jpg) center; background-size: cover;" data-fancybox="house-people_4"></a>
-						</div>
-
-						<div class="d-none">
-							<a class="image fancybox" href="img/houses/standart_3/2.jpg" data-fancybox="house-standart_3" data-thumb="img/houses/standart_3/2.jpg"></a>
-						</div>
-
-						<div class="text">
-							<h2>Дом 8х10</h2>
-							<h3>Общая площадь = 169 м<sup><small>2</small></sup></h3>
-							<ul>
-								<li>Каменный надежный дом</li>
-								<li>Центральная вода</li>
-								<li>Шамбо 10 м<sup><small>3</small></sup></li>
-								<li>Лестница межэтажная деревянная</li>
-								<li>Окна ПВХ, входная утепленная дверь</li>
-								<li>Фасадное покрытие Терракот стандарт</li>
-								<li>Стояки холодного водоснабжения и канализации</li>
-								<li>Подключение к сетям вентиляции</li>
-								<li>Крыльцо</li>
-								<li>Два балкона</li>
-								<li>Внутренняя отделка: заделка стеновых швов штукатуркой, стяжка пола</li>
-								<li>Земельный участок <br>в собственности - 10 соток</li>
-								<li>Закрытая огороженная территория <br>(общий забор)</li>
-								<li>Гарантия 50 лет!</li>
-							</ul>
-							<p>Коттедж для тех, кто ценит простоту и практичность. Архитектура дома - без лишних деталей. Жители коттеджа “Народный” получат ощущение теплоты, комфорта и защищености на долгие годыю</p>
-							<h2>Стоимость: 6.35 <small>млн. ₽</small></h2>
-						</div>
-
-					</div> -->
-
 				</div>
 
 				<div class="tab-btns">
 					<button class="tab-btn active" data-tab="small">6х6</button>
 					<button class="tab-btn" data-tab="medium">9х6</button>
 					<button class="tab-btn" data-tab="big">8х9</button>
-					<!-- <button class="tab-btn" data-tab="premium">8х10</button> -->
 				</div>
 
 			</div>
@@ -549,57 +524,15 @@ get_header(); ?>
 
 					</div>
 
-					<!-- <div class="tab-content" data-tab="premium">
-
-						<div class="text">
-							<h2>ДОМ 8х10</h2>
-							<h3>Общая площадь = 169,15 м<sup><small>2</small></sup></h3>
-							<ul>
-								<li>Каменный надежный дом</li>
-								<li>Центральная вода</li>
-								<li>Шамбо 10 м<sup><small>3</small></sup></li>
-								<li>Кровля четырехскатная, стропильная система + металлочерепица</li>
-								<li>Лестница межэтажная деревянная</li>
-								<li>Окна ПВХ, входная утепленная дверь</li>
-								<li>Фасадное покрытие Терракот стандарт</li>
-								<li>Стояки холодного водоснабжения и канализации</li>
-								<li>Подключение к сетям вентиляции</li>
-								<li>Крыльцо</li>
-								<li>Два балкона</li>
-								<li>Внутренняя отделка: заделка стеновых швов штукатуркой, стяжка пола</li>
-								<li>Земельный участок <br>в собственности - 10 соток</li>
-								<li>Закрытая огороженная территория <br>(общий забор)</li>
-								<li>Гарантия 50 лет!</li>
-							</ul>
-							<p>Двухэтажный коттедж для тех, кто выбирает старую добрую классику. Объемные колонны, шикарные балконы, оформленные художественной ковкой. Для многих мечта всей жизни - создание родового гнезда. Коттедж “Классика” - место, где будут жить поколения вашей семьи. <br>Жить и гордиться своим домом.</p>
-							<h2>Стоимость: 6.81 <small>млн. ₽</small></h2>
-						</div>
-
-						<div class="name-image">
-							<h3>Народные дома "Классика"</h3>
-							<a href="<?php// echo $template_url; ?>/img/houses/classic_4/scheme.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/classic_4/sm.jpg) center; background-size: cover;" data-fancybox="house-classic_4"></a>
-						</div>
-
-						<div class="d-none">
-							<a class="image fancybox" href="img/houses/classic_3/2.jpg" data-fancybox="house-classic_3" data-thumb="img/houses/classic_2/2.jpg"></a>
-						</div>
-
-					</div> -->
-
 				</div>
 
 				<div class="tab-btns">
 					<button class="tab-btn active" data-tab="small">6х6</button>
 					<button class="tab-btn" data-tab="medium">9х6</button>
 					<button class="tab-btn" data-tab="big">8х9</button>
-					<!-- <button class="tab-btn" data-tab="premium">8х10</button> -->
 				</div>
 
 			</div>
-
-
-
-
 
 
 
@@ -647,13 +580,11 @@ get_header(); ?>
 						</div>
 
 						<div class="d-none">
-							<div class="d-none">
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/2.jpg" data-fancybox="house-classic_1_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/2.jpg"></a>
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/3.jpg" data-fancybox="house-classic_1_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/3.jpg"></a>
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/4.jpg" data-fancybox="house-classic_1_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/4.jpg"></a>
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/5.jpg" data-fancybox="house-classic_1_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/5.jpg"></a>
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_1/scheme.jpg" data-fancybox="house-classic_1_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_1/scheme.jpg"></a>
-						</div>
 						</div>
 
 					</div>
@@ -697,13 +628,11 @@ get_header(); ?>
 						</div>
 
 						<div class="d-none">
-							<div class="d-none">
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_2/2.jpg" data-fancybox="house-classic_2_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/2.jpg"></a>
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_2/3.jpg" data-fancybox="house-classic_2_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/3.jpg"></a>
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_2/4.jpg" data-fancybox="house-classic_2_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/4.jpg"></a>
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_2/5.jpg" data-fancybox="house-classic_2_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/5.jpg"></a>
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_2/scheme.jpg" data-fancybox="house-classic_2_sm" data-thumb="<?php echo $template_url; ?>/img/houses/classic_2/scheme.jpg"></a>
-						</div>
 						</div>
 
 					</div>
@@ -757,50 +686,12 @@ get_header(); ?>
 
 					</div>
 
-					<!-- <div class="tab-content" data-tab="premium">
-
-						<div class="name-image">
-							<h3>Народные дома "Классика"</h3>
-							<a href="<?php// echo $template_url; ?>/img/houses/classic_4/scheme.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/classic_4/sm.jpg) center; background-size: cover;" data-fancybox="house-classic_4_sm"></a>
-						</div>
-
-						<div class="text">
-							<h2>ДОМ 8х10</h2>
-							<h3>Общая площадь = 169,15 м<sup><small>2</small></sup></h3>
-							<ul>
-								<li>Каменный надежный дом</li>
-								<li>Центральная вода</li>
-								<li>Шамбо 10 м<sup><small>3</small></sup></li>
-								<li>Кровля четырехскатная, стропильная система + металлочерепица</li>
-								<li>Лестница межэтажная деревянная</li>
-								<li>Окна ПВХ, входная утепленная дверь</li>
-								<li>Фасадное покрытие Терракот стандарт</li>
-								<li>Стояки холодного водоснабжения и канализации</li>
-								<li>Подключение к сетям вентиляции</li>
-								<li>Крыльцо</li>
-								<li>Два балкона</li>
-								<li>Внутренняя отделка: заделка стеновых швов штукатуркой, стяжка пола</li>
-								<li>Земельный участок <br>в собственности - 10 соток</li>
-								<li>Закрытая огороженная территория <br>(общий забор)</li>
-								<li>Гарантия 50 лет!</li>
-							</ul>
-							<p>Двухэтажный коттедж для тех, кто выбирает старую добрую классику. Объемные колонны, шикарные балконы, оформленные художественной ковкой. Для многих мечта всей жизни - создание родового гнезда. Коттедж “Классика” - место, где будут жить поколения вашей семьи. <br>Жить и гордиться своим домом.</p>
-							<h2>Стоимость: 6.81 <small>млн. ₽</small></h2>
-						</div>
-
-						<div class="d-none">
-							<a class="image fancybox" href="img/houses/classic_3/2.jpg" data-fancybox="house-classic_3" data-thumb="img/houses/classic_2/2.jpg"></a>
-						</div>
-
-					</div> -->
-
 				</div>
 
 				<div class="tab-btns">
 					<button class="tab-btn active" data-tab="small">6х6</button>
 					<button class="tab-btn" data-tab="medium">9х6</button>
 					<button class="tab-btn" data-tab="big">8х9</button>
-					<!-- <button class="tab-btn" data-tab="premium">8х10</button> -->
 				</div>
 
 			</div>
@@ -892,9 +783,14 @@ get_header(); ?>
 			</ul>
 		</div>
 
-		<a href="<?php echo $template_url; ?>/img/techmology.jpg" class="technology-image image zoom-img" data-fancybox>
-			<img src="<?php echo $template_url; ?>/img/techmology.jpg" alt="technology" class="img-responsive">
-		</a>
+		<div class="technology-images">
+			<a href="<?php echo $template_url; ?>/img/technology-people-big.jpg" class="technology-image image zoom-img" data-fancybox>
+				<img src="<?php echo $template_url; ?>/img/technology-people-small.jpg" alt="technology" class="img-responsive">
+			</a>
+			<a href="<?php echo $template_url; ?>/img/technology-classic-big.jpg" class="technology-image image zoom-img" data-fancybox>
+				<img src="<?php echo $template_url; ?>/img/technology-classic-small.jpg" alt="technology" class="img-responsive">
+			</a>
+		</div>
 
 	</div>
 </section>
