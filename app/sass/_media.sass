@@ -37,7 +37,9 @@
 			justify-content: center
 			li
 				&:not(:last-child)
-					margin-right: 65px
+					margin-right: 32px
+				a
+					font-size: 14px
 
 	.top-section
 		.top-content
@@ -128,9 +130,9 @@
 			li
 				height: 70px
 				&:not(:last-child)
-					margin-right: 50px
+					margin-right: 30px
 				a
-					font-size: 16px
+					font-size: 14px
 		.header-phone
 			p
 				font-size: 16px
@@ -227,6 +229,8 @@
 					font-size: 24px
 					padding-left: 50px
 					box-sizing: border-box
+					&::after
+						display: none
 			&.active
 				visibility: visible
 				opacity: 1
@@ -321,6 +325,7 @@
 					font-size: 24px
 					padding-left: 50px
 					box-sizing: border-box
+					line-height: 1.2
 			&.active
 				visibility: visible
 				opacity: 1

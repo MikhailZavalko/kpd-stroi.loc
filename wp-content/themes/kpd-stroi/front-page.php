@@ -84,7 +84,7 @@ get_header(); ?>
 					<li>Жители коттеджного поселка получают все виды льгот, предусмотренные для проживающих в сельской местности: по коммунальным платежам, при регистрации автомобиля, по налогообложению и другие</li>
 				</ul>
 			</div>
-			<div class="image"></div>
+			<a href="<?php echo $template_url; ?>/img/about-img.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/about-img_sm.jpg) center; background-size: cover;"></a>
 		</div>
 
 		<div class="about-items">
@@ -169,117 +169,6 @@ get_header(); ?>
 
 
 
-
-
-
-
-
-
-
-<!-- <section class="houses-section" id="our-homes">
-	<div class="container">
-
-		<div class="tabs houses reverse">
-
-			<div class="tab-contents">
-
-				<div class="tab-content active" data-tab="small">
-					<div class="text">
-						<h2>Каменный дом 82,33 м<sup><small>2</small></sup><br> с двускатной кровлей</h2>
-						<h4>Наполнение Народного дома:</h4>
-						<ul>
-							<li>Фундамент</li>
-							<li>Стены - трехслойные несущие ж/б стеновые панели с утеплением</li>
-							<li>Фасад - бетонный под каменные блоки</li>
-							<li>Перекрытия первого этажа - ж/б ребристые утепленные плиты</li>
-							<li>Межэтажное перекрытие бетонное</li>
-							<li>Кровля: четырехскатная, холодная</li>
-							<li>Окна ПВХ, входная утепленная дверь</li>
-							<li>Разводка стояков водоснабжения и канализации по дому</li>
-							<li>Вентиляция</li>
-							<li>Балконы с ковкой, крыльцо</li>
-						</ul>
-						<h4>Инженерные Сети:</h4>
-						<ul>
-							<li>Центральная холодная вода</li>
-							<li>Канализация 10 м<sup><small>3</small></sup></li>
-							<li>Отопление - электрические радиаторы</li>
-						</ul>
-						<h4>Благоустройство:</h4>
-						<ul>
-							<li>Земельный участок 10 сот в собственность</li>
-							<li>Закрытая огороженная территория</li>
-							<li>Дорога внутриквартальная</li>
-							<li>Освещение поселка</li>
-						</ul>
-						<h2>Стоимость: 4.55 <small>млн. ₽</small></h2>
-					</div>
-
-					<div class="name-image">
-						<h3>Одноэтажный дом</h3>
-						<a href="<?php// echo $template_url; ?>/img/houses/single_lvl/1_dbl_roof/scheme.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/single_lvl/1_dbl_roof/sm.jpg) center; background-size: cover;" data-fancybox="house-1_dbl_roof"></a>
-						<div class="d-none">
-							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/single_lvl/1_dbl_roof/2.jpg" data-fancybox="house-1_dbl_roof" data-thumb="<?php// echo $template_url; ?>/img/houses/single_lvl/people_1/2.jpg"></a>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="tab-content" data-tab="medium">
-
-					<div class="text">
-						<h2>Каменный дом 122,16 м<sup><small>2</small></sup><br> с односкатной кровлей</h2>
-						<h4>Наполнение Народного дома:</h4>
-						<ul>
-							<li>Фундамент</li>
-							<li>Стены - трехслойные несущие ж/б стеновые панели с утеплением</li>
-							<li>Фасад - бетонный под каменные блоки</li>
-							<li>Перекрытия первого этажа - ж/б ребристые утепленные плиты</li>
-							<li>Межэтажное перекрытие бетонное</li>
-							<li>Кровля: четырехскатная, холодная</li>
-							<li>Окна ПВХ, входная утепленная дверь</li>
-							<li>Разводка стояков водоснабжения и канализации по дому</li>
-							<li>Вентиляция</li>
-							<li>Балконы с ковкой, крыльцо</li>
-						</ul>
-						<h4>Инженерные Сети:</h4>
-						<ul>
-							<li>Центральная холодная вода</li>
-							<li>Канализация 10 м<sup><small>3</small></sup></li>
-							<li>Отопление - электрические радиаторы</li>
-						</ul>
-						<h4>Благоустройство:</h4>
-						<ul>
-							<li>Земельный участок 10 сот в собственность</li>
-							<li>Закрытая огороженная территория</li>
-							<li>Дорога внутриквартальная</li>
-							<li>Освещение поселка</li>
-						</ul>
-						<h2>Стоимость: 5.40 <small>млн. ₽</small></h2>
-					</div>
-
-					<div class="name-image">
-						<h3>Одноэтажный дом</h3>
-						<a href="<?php// echo $template_url; ?>/img/houses/single_lvl/2_dbl_roof/scheme.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/single_lvl/2_dbl_roof/sm.jpg) center; background-size: cover;" data-fancybox="house-2_dbl_roof"></a>
-						<div class="d-none">
-							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/single_lvl/2_dbl_roof/1.jpg" data-fancybox="house-2_dbl_roof" data-thumb="<?php// echo $template_url; ?>/img/houses/single_lvl/2_dbl_roof/1.jpg"></a>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-
-			<div class="tab-btns">
-				<button class="tab-btn active" data-tab="small">6х6</button>
-				<button class="tab-btn" data-tab="medium">9х6</button>
-			</div>
-
-		</div>
-
-	</div>
-
-</section> -->
 
 
 
@@ -585,160 +474,6 @@ get_header(); ?>
 
 
 
-<!-- <section class="houses-section">
-	<div class="container">
-
-		<div class="tabs houses">
-
-			<div class="tab-contents">
-
-				<div class="tab-content active" data-tab="small">
-
-					<div class="name-image">
-						<h3>Народный дом</h3>
-						<a href="<?php// echo $template_url; ?>/img/houses/people_1_dblroof/scheme.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/people_1_dblroof/sm.jpg) center; background-size: cover;" data-fancybox="house-people_1_dblroof"></a>
-						<div class="d-none">
-							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_1/2.jpg" data-fancybox="house-people_1_dblroof" data-thumb="<?php// echo $template_url; ?>/img/houses/people_1/2.jpg"></a>
-						</div>
-					</div>
-
-					<div class="text">
-						<h2>Каменный дом 90,04 м<sup><small>2</small></sup><br> с двускатной кровлей</h2>
-						<h4>Наполнение Народного дома:</h4>
-						<ul>
-							<li>Фундамент</li>
-							<li>Стены - трехслойные несущие ж/б стеновые панели с утеплением</li>
-							<li>Фасад - бетонный под каменные блоки</li>
-							<li>Перекрытия первого этажа - ж/б ребристые утепленные плиты</li>
-							<li>Межэтажное перекрытие - из дерева</li>
-							<li>Кровля: односкатная, покрыта в два слоя стеклоизолом</li>
-							<li>Окна ПВХ, входная утепленная дверь</li>
-							<li>Разводка стояков водоснабжения и канализации по дому</li>
-							<li>Вентиляция</li>
-							<li>Балконы с ковкой, крыльцо</li>
-						</ul>
-						<h4>Инженерные Сети:</h4>
-						<ul>
-							<li>Центральная вода</li>
-							<li>Шамбо - 10 м<sup><small>3</small></sup></li>
-							<li>Отопление - электрические радиаторы</li>
-						</ul>
-						<h4>Благоустройство:</h4>
-						<ul>
-							<li>Земельный участок в собственности <br>от 10 соток</li>
-							<li>Закрытая огороженная территория <br>(общий забор)</li>
-							<li>Дорога внутриквартальная</li>
-							<li>Освещение поселка</li>
-						</ul>
-						<h2>Стоимость: 4.45 <small>млн. ₽</small></h2>
-					</div>
-
-				</div>
-
-
-				<div class="tab-content" data-tab="medium">
-
-					<div class="name-image">
-						<h3>Народный дом</h3>
-						<a href="<?php// echo $template_url; ?>/img/houses/people_2_dblroof/scheme.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/people_2_dblroof/sm.jpg) center; background-size: cover;" data-fancybox="house-people_2_dblroof"></a>
-						<div class="d-none">
-							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_2_dblroof/2.jpg" data-fancybox="house-people_2_dblroof" data-thumb="<?php// echo $template_url; ?>/img/houses/people_2_dblroof/2.jpg"></a>
-						</div>
-					</div>
-
-					<div class="text">
-						<h2>Каменный дом 120,54 м<sup><small>2</small></sup><br> с двускатной кровлей</h2>
-						<h4>Наполнение Народного дома:</h4>
-						<ul>
-							<li>Фундамент</li>
-							<li>Стены - трехслойные несущие ж/б стеновые панели с утеплением</li>
-							<li>Фасад - бетонный под каменные блоки</li>
-							<li>Перекрытия первого этажа - ж/б ребристые утепленные плиты</li>
-							<li>Межэтажное перекрытие - из дерева</li>
-							<li>Кровля: односкатная, покрыта в два слоя стеклоизолом</li>
-							<li>Окна ПВХ, входная утепленная дверь</li>
-							<li>Разводка стояков водоснабжения и канализации по дому</li>
-							<li>Вентиляция</li>
-							<li>Балконы с ковкой, крыльцо</li>
-						</ul>
-						<h4>Инженерные Сети:</h4>
-						<ul>
-							<li>Центральная вода</li>
-							<li>Шамбо - 10 м<sup><small>3</small></sup></li>
-							<li>Отопление - электрические радиаторы</li>
-						</ul>
-						<h4>Благоустройство:</h4>
-						<ul>
-							<li>Земельный участок в собственности <br>от 10 соток</li>
-							<li>Закрытая огороженная территория <br>(общий забор)</li>
-							<li>Дорога внутриквартальная</li>
-							<li>Освещение поселка</li>
-						</ul>
-						<h2>Стоимость: 5.05 <small>млн. ₽</small></h2>
-					</div>
-
-				</div>
-
-
-				<div class="tab-content" data-tab="big">
-
-					<div class="name-image">
-						<h3>Народный дом</h3>
-						<a href="<?php// echo $template_url; ?>/img/houses/people_3_dblroof/scheme.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/people_3_dblroof/sm.jpg) center; background-size: cover;" data-fancybox="house-people_3_dblroof"></a>
-						<div class="d-none">
-							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_3_dblroof/2.jpg" data-fancybox="house-people_3_dblroof" data-thumb="<?php// echo $template_url; ?>/img/houses/people_3_dblroof/2.jpg"></a>
-						</div>
-					</div>
-
-					<div class="text">
-						<h2>Каменный дом 150,19 м<sup><small>2</small></sup><br> с двускатной кровлей</h2>
-						<h4>Наполнение Народного дома:</h4>
-						<ul>
-							<li>Фундамент</li>
-							<li>Стены - трехслойные несущие ж/б стеновые панели с утеплением</li>
-							<li>Фасад - бетонный под каменные блоки</li>
-							<li>Перекрытия первого этажа - ж/б ребристые утепленные плиты</li>
-							<li>Межэтажное перекрытие - из дерева</li>
-							<li>Кровля: односкатная, покрыта в два слоя стеклоизолом</li>
-							<li>Окна ПВХ, входная утепленная дверь</li>
-							<li>Разводка стояков водоснабжения и канализации по дому</li>
-							<li>Вентиляция</li>
-							<li>Балконы с ковкой, крыльцо</li>
-						</ul>
-						<h4>Инженерные Сети:</h4>
-						<ul>
-							<li>Центральная вода</li>
-							<li>Шамбо - 10 м<sup><small>3</small></sup></li>
-							<li>Отопление - электрические радиаторы</li>
-						</ul>
-						<h4>Благоустройство:</h4>
-						<ul>
-							<li>Земельный участок в собственности <br>от 10 соток</li>
-							<li>Закрытая огороженная территория <br>(общий забор)</li>
-							<li>Дорога внутриквартальная</li>
-							<li>Освещение поселка</li>
-						</ul>
-						<h2>Стоимость: 5.64 <small>млн. ₽</small></h2>
-					</div>
-				</div>
-
-			</div>
-
-			<div class="tab-btns">
-				<button class="tab-btn active" data-tab="small">6х6</button>
-				<button class="tab-btn" data-tab="medium">9х6</button>
-				<button class="tab-btn" data-tab="big">8х9</button>
-			</div>
-
-		</div>
-
-	</div>
-
-</section> -->
-
-
-
-
 
 
 
@@ -851,7 +586,7 @@ get_header(); ?>
 
 					<div class="name-image">
 						<h3>Народный дом "Классика"</h3>
-						<a href="<?php echo $template_url; ?>/img/houses/classic_3/1.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/classic_3/sm.jpg?v=1.2) center; background-size: cover;" data-fancybox="house-classic_3"></a>
+						image
 						<div class="d-none">
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/2.jpg" data-fancybox="house-classic_3" data-thumb="<?php echo $template_url; ?>/img/houses/classic_3/2.jpg"></a>
 							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/classic_3/3.jpg" data-fancybox="house-classic_3" data-thumb="<?php echo $template_url; ?>/img/houses/classic_3/3.jpg"></a>
@@ -921,6 +656,24 @@ get_header(); ?>
 
 
 
+<!-- <div class="progress-section" id="progress-section">
+	<div class="container">
+		<h2 class="type-head">Ход строительства</h2>
+		<div class="gallery">
+
+			<a href="<?php// echo $template_url; ?>/img/houses/classic_2/1.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/classic_2/sm.jpg?v=1.1) center; background-size: cover;" data-fancybox="gallery"></a>
+
+			<a href="<?php// echo $template_url; ?>/img/houses/classic_2/1.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/classic_1/sm.jpg?v=1.1) center; background-size: cover;" data-fancybox="gallery"></a>
+
+			<a href="<?php// echo $template_url; ?>/img/houses/classic_2/1.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/classic_3/sm.jpg?v=1.1) center; background-size: cover;" data-fancybox="gallery"></a>
+
+			<a href="<?php// echo $template_url; ?>/img/houses/classic_2/2.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/classic_2/sm.jpg?v=1.1) center; background-size: cover;" data-fancybox="gallery"></a>
+
+			<a href="<?php// echo $template_url; ?>/img/houses/classic_2/1.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/classic_1/sm.jpg?v=1.1) center; background-size: cover;" data-fancybox="gallery"></a>
+
+		</div>
+	</div>
+</div> -->
 
 
 
@@ -990,10 +743,10 @@ get_header(); ?>
 		</div>
 
 		<div class="technology-images">
-			<a href="<?php echo $template_url; ?>/img/technology-people-big.jpg" class="technology-image image zoom-img" data-fancybox>
+			<a href="<?php echo $template_url; ?>/img/technology-people-big.jpg" class="technology-image image" data-fancybox>
 				<img src="<?php echo $template_url; ?>/img/technology-people-small.jpg" alt="technology" class="img-responsive">
 			</a>
-			<a href="<?php echo $template_url; ?>/img/technology-classic-big.jpg" class="technology-image image zoom-img" data-fancybox>
+			<a href="<?php echo $template_url; ?>/img/technology-classic-big.jpg" class="technology-image image" data-fancybox>
 				<img src="<?php echo $template_url; ?>/img/technology-classic-small.jpg" alt="technology" class="img-responsive">
 			</a>
 		</div>

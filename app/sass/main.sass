@@ -217,7 +217,7 @@ p
 			list-style-type: none
 			height: 100px
 			&:not(:last-child)
-				margin-right: 100px
+				margin-right: 55px
 			a
 				height: 100%
 				display: flex
@@ -225,7 +225,7 @@ p
 				text-decoration: none
 				color: $fontcolor
 				text-transform: uppercase
-				font-size: 18px
+				font-size: 16px
 				transition: $time
 				position: relative
 				&::after
@@ -415,8 +415,6 @@ p
 			width: 663px
 			height: 372px
 			border-radius: 10px
-			background: url('../img/about-img.jpg') center no-repeat
-			background-size: cover
 			flex-shrink: 0
 			box-sizing: border-box
 			box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.5)
@@ -464,6 +462,7 @@ p
 
 .image
 	position: relative
+	border-radius: 10px
 	z-index: 3
 	&::before
 		content: ''
@@ -477,6 +476,25 @@ p
 		border-radius: 10px
 		box-sizing: border-box
 		border: 2px solid $accent
+	&::after
+		content: ''
+		position: absolute
+		top: 50%
+		left: 50%
+		width: 114px
+		height: 114px
+		background: url('../img/scale.png') center no-repeat
+		background-size: cover
+		transform: scale(1) translate(-50%, -50%)
+		transition: $time
+		opacity: 0
+	&:hover
+		&::after
+			left: 54%
+			transform: scale(1.2) translate(-50%, -50%)
+			opacity: 1
+		&::before
+			transform: translate(-50%, -50%) scale(1.02)
 
 .text
 	p
@@ -630,23 +648,10 @@ p
 			.image
 				width: 451px
 				height: 318px
-				border-radius: 10px
 				margin: 0 auto
 				display: block
 				flex-shrink: 0
 				position: relative
-				&::after
-					content: ''
-					position: absolute
-					top: 50%
-					left: 50%
-					width: 114px
-					height: 114px
-					background: url('../img/scale.png') center no-repeat
-					background-size: cover
-					transform: scale(1) translate(-50%, -50%)
-					transition: $time
-					opacity: 0
 				&:hover
 					&::after
 						left: 54%
@@ -713,6 +718,18 @@ p
 		margin: 100px auto 0 auto
 		&:hover
 			background-color: rgba($accent, .3)
+
+
+
+.progress-section
+	padding: 100px 0
+	border-bottom: 20px solid $accent
+	.gallery
+		display: grid
+		grid-template-columns: repeat(3, 1fr)
+		grid-gap: 40px
+		.image
+			height: 350px
 
 
 
