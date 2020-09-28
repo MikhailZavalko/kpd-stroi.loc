@@ -399,7 +399,7 @@ get_header(); ?>
 
 				</div>
 
-				<div class="tab-content" data-tab="big">
+				<!-- <div class="tab-content" data-tab="big">
 
 					<div class="text">
 						<h2>Каменный дом 150,19 м<sup><small>2</small></sup><br> с односкатной кровлей</h2>
@@ -435,26 +435,26 @@ get_header(); ?>
 
 					<div class="name-image">
 						<h3>Народный дом</h3>
-						<a href="<?php echo $template_url; ?>/img/houses/people_3/1.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/people_3/sm.jpg) center; background-size: cover;" data-fancybox="house-people_3"></a>
+						<a href="<?php// echo $template_url; ?>/img/houses/people_3/1.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/people_3/sm.jpg) center; background-size: cover;" data-fancybox="house-people_3"></a>
 						<div class="d-none">
-							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_3/2.jpg" data-fancybox="house-people_3" data-thumb="<?php echo $template_url; ?>/img/houses/people_3/2.jpg"></a>
-							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_3/3.jpg" data-fancybox="house-people_3" data-thumb="<?php echo $template_url; ?>/img/houses/people_3/3.jpg"></a>
-							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_3/4.jpg" data-fancybox="house-people_3" data-thumb="<?php echo $template_url; ?>/img/houses/people_3/4.jpg"></a>
-							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_3/5.jpg" data-fancybox="house-people_3" data-thumb="<?php echo $template_url; ?>/img/houses/people_3/5.jpg"></a>
-							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_3/6.jpg" data-fancybox="house-people_3" data-thumb="<?php echo $template_url; ?>/img/houses/people_3/6.jpg"></a>
-							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_3/7.jpg" data-fancybox="house-people_3" data-thumb="<?php echo $template_url; ?>/img/houses/people_3/7.jpg"></a>
-							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/people_3/scheme.jpg" data-fancybox="house-people_3" data-thumb="<?php echo $template_url; ?>/img/houses/people_3/scheme.jpg"></a>
+							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_3/2.jpg" data-fancybox="house-people_3" data-thumb="<?php// echo $template_url; ?>/img/houses/people_3/2.jpg"></a>
+							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_3/3.jpg" data-fancybox="house-people_3" data-thumb="<?php// echo $template_url; ?>/img/houses/people_3/3.jpg"></a>
+							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_3/4.jpg" data-fancybox="house-people_3" data-thumb="<?php// echo $template_url; ?>/img/houses/people_3/4.jpg"></a>
+							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_3/5.jpg" data-fancybox="house-people_3" data-thumb="<?php// echo $template_url; ?>/img/houses/people_3/5.jpg"></a>
+							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_3/6.jpg" data-fancybox="house-people_3" data-thumb="<?php// echo $template_url; ?>/img/houses/people_3/6.jpg"></a>
+							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_3/7.jpg" data-fancybox="house-people_3" data-thumb="<?php// echo $template_url; ?>/img/houses/people_3/7.jpg"></a>
+							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_3/scheme.jpg" data-fancybox="house-people_3" data-thumb="<?php// echo $template_url; ?>/img/houses/people_3/scheme.jpg"></a>
 						</div>
 					</div>
 
-				</div>
+				</div> -->
 
 			</div>
 
 			<div class="tab-btns">
 				<button class="tab-btn active" data-tab="small">6х6</button>
 				<button class="tab-btn" data-tab="medium">9х6</button>
-				<button class="tab-btn" data-tab="big">8х9</button>
+				<!-- <button class="tab-btn" data-tab="big">8х9</button> -->
 			</div>
 
 		</div>
