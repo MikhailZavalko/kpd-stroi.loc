@@ -656,24 +656,26 @@ get_header(); ?>
 
 
 
-<!-- <div class="progress-section" id="progress-section">
+<div class="progress-section" id="progress-section">
 	<div class="container">
 		<h2 class="type-head">Ход строительства</h2>
 		<div class="gallery">
 
-			<a href="<?php// echo $template_url; ?>/img/houses/classic_2/1.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/classic_2/sm.jpg?v=1.1) center; background-size: cover;" data-fancybox="gallery"></a>
+			<a href="<?php echo $template_url; ?>/img/process/1.JPG?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/sm/1.jpg?v=1.1) center; background-size: cover;" data-fancybox="progress" data-thumb="<?php echo $template_url; ?>/img/process/sm/1.jpg?v=1.1"></a>
 
-			<a href="<?php// echo $template_url; ?>/img/houses/classic_2/1.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/classic_1/sm.jpg?v=1.1) center; background-size: cover;" data-fancybox="gallery"></a>
+			<a href="<?php echo $template_url; ?>/img/process/2.JPG?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/sm/2.jpg?v=1.1) center; background-size: cover;" data-fancybox="progress" data-thumb="<?php echo $template_url; ?>/img/process/sm/2.jpg?v=1.1"></a>
 
-			<a href="<?php// echo $template_url; ?>/img/houses/classic_2/1.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/classic_3/sm.jpg?v=1.1) center; background-size: cover;" data-fancybox="gallery"></a>
+			<a href="<?php echo $template_url; ?>/img/process/3.JPG?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/sm/3.jpg?v=1.1) center; background-size: cover;" data-fancybox="progress" data-thumb="<?php echo $template_url; ?>/img/process/sm/3.jpg?v=1.1"></a>
 
-			<a href="<?php// echo $template_url; ?>/img/houses/classic_2/2.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/classic_2/sm.jpg?v=1.1) center; background-size: cover;" data-fancybox="gallery"></a>
+			<a href="<?php echo $template_url; ?>/img/process/4.JPG?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/sm/4.jpg?v=1.1) center; background-size: cover;" data-fancybox="progress" data-thumb="<?php echo $template_url; ?>/img/process/sm/4.jpg?v=1.1"></a>
 
-			<a href="<?php// echo $template_url; ?>/img/houses/classic_2/1.jpg" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/classic_1/sm.jpg?v=1.1) center; background-size: cover;" data-fancybox="gallery"></a>
+			<a href="<?php echo $template_url; ?>/img/process/5.JPG?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/sm/5.jpg?v=1.1) center; background-size: cover;" data-fancybox="progress" data-thumb="<?php echo $template_url; ?>/img/process/sm/5.jpg?v=1.1"></a>
+
+			<a href="<?php echo $template_url; ?>/img/process/6.JPG?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/sm/6.jpg?v=1.1) center; background-size: cover;" data-fancybox="progress" data-thumb="<?php echo $template_url; ?>/img/process/sm/6.jpg?v=1.1"></a>
 
 		</div>
 	</div>
-</div> -->
+</div>
 
 
 
