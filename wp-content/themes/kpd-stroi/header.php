@@ -72,7 +72,7 @@ $template_url = get_template_directory_uri();
 					<li><a href="#home">О проекте</a></li>
 					<li><a href="#general-plan">Генплан</a></li>
 					<li><a href="#our-homes">Дома</a></li>
-					<!-- <li><a href="#progress-section">Ход строительства</a></li> -->
+					<li><a href="#progress-section">Ход строительства</a></li>
 					<li><a href="https://kpd100zavod.ru/" target="_blank" rel="nofollow">Завод</a></li>
 					<li><a href="#contacts">Контакты</a></li>
 				</ul>

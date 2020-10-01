@@ -238,9 +238,9 @@ get_header(); ?>
 
 					<div class="name-image">
 						<h3>Одноэтажный дом</h3>
-						<a href="<?php echo $template_url; ?>/img/houses/single_lvl/2_4th_roof/scheme.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/single_lvl/2_4th_roof/sm.jpg) center; background-size: cover;" data-fancybox="house-2_4th_roof"></a>
+						<a href="<?php echo $template_url; ?>/img/houses/single_lvl/2_4th_roof/1.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/single_lvl/2_4th_roof/sm.jpg) center; background-size: cover;" data-fancybox="house-2_4th_roof"></a>
 						<div class="d-none">
-							<!-- <a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/single_lvl/2_4th_roof/2.jpg" data-fancybox="house-2_4th_roof" data-thumb="<?php// echo $template_url; ?>/img/houses/single_lvl/2_4th_roof/2.jpg"></a> -->
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/single_lvl/2_4th_roof/scheme.jpg" data-fancybox="house-2_4th_roof" data-thumb="<?php echo $template_url; ?>/img/houses/single_lvl/2_4th_roof/scheme.jpg"></a>
 						</div>
 					</div>
 
@@ -745,11 +745,11 @@ get_header(); ?>
 		</div>
 
 		<div class="technology-images">
-			<a href="<?php echo $template_url; ?>/img/technology-people-big.jpg" class="technology-image image" data-fancybox>
-				<img src="<?php echo $template_url; ?>/img/technology-people-small.jpg" alt="technology" class="img-responsive">
+			<a href="<?php echo $template_url; ?>/img/technology-people-big.jpg?v=1.1" class="technology-image image" data-fancybox>
+				<img src="<?php echo $template_url; ?>/img/technology-people-small.jpg?v=1.1" alt="technology" class="img-responsive">
 			</a>
-			<a href="<?php echo $template_url; ?>/img/technology-classic-big.jpg" class="technology-image image" data-fancybox>
-				<img src="<?php echo $template_url; ?>/img/technology-classic-small.jpg" alt="technology" class="img-responsive">
+			<a href="<?php echo $template_url; ?>/img/technology-classic-big.jpg?v=1.1" class="technology-image image" data-fancybox>
+				<img src="<?php echo $template_url; ?>/img/technology-classic-small.jpg?v=1.1" alt="technology" class="img-responsive">
 			</a>
 		</div>
 
