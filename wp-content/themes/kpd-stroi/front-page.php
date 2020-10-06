@@ -625,10 +625,10 @@ get_header(); ?>
 
 		</div>
 
-		<h3>Дом двухэтажный 120,54м<sup><small>2</small></sup></h3>
+		<h3>Дом двухэтажный 120,54м<sup><small>2</small></sup> "Классика", с четырехскатной кровлей, с балконами</h3>
 		<div class="gallery">
 
-			<!-- <a href="<?php// echo $template_url; ?>/img/process/12_semeiniy_1/1.jpg?v=1.1" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/process/12_semeiniy_1/sm/1.jpg?v=1.1) center; background-size: cover;" data-fancybox="progress" data-thumb="<?php// echo $template_url; ?>/img/process/12_semeiniy_1/sm/1.jpg?v=1.1"></a> -->
+			<a href="<?php echo $template_url; ?>/img/process/12_semeiniy_1/1.jpg?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/12_semeiniy_1/sm/1.jpg?v=1.1) center; background-size: cover;" data-fancybox="progress" data-thumb="<?php echo $template_url; ?>/img/process/12_semeiniy_1/sm/1.jpg?v=1.1"></a>
 
 			<a href="<?php echo $template_url; ?>/img/process/12_semeiniy_1/2.jpg?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/12_semeiniy_1/sm/2.jpg?v=1.1) center; background-size: cover;" data-fancybox="progress" data-thumb="<?php echo $template_url; ?>/img/process/12_semeiniy_1/sm/2.jpg?v=1.1"></a>
 
@@ -636,10 +636,10 @@ get_header(); ?>
 
 		</div>
 
-		<h3>Дом двухэтажный 106,59м<sup><small>2</small></sup></h3>
+		<h3>Дом двухэтажный 106,59м<sup><small>2</small></sup> с четырехскатной кровлей, с балконами и навесом</h3>
 		<div class="gallery">
 
-			<!-- <a href="<?php// echo $template_url; ?>/img/process/15_semeiniy_2/1.jpg?v=1.1" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/process/15_semeiniy_2/sm/1.jpg?v=1.1) center; background-size: cover;" data-fancybox="progress" data-thumb="<?php// echo $template_url; ?>/img/process/15_semeiniy_2/sm/1.jpg?v=1.1"></a> -->
+			<a href="<?php echo $template_url; ?>/img/process/15_semeiniy_2/1.jpg?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/15_semeiniy_2/sm/1.jpg?v=1.1) center; background-size: cover;" data-fancybox="progress" data-thumb="<?php echo $template_url; ?>/img/process/15_semeiniy_2/sm/1.jpg?v=1.1"></a>
 
 			<a href="<?php echo $template_url; ?>/img/process/15_semeiniy_2/2.jpg?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/15_semeiniy_2/sm/2.jpg?v=1.1) center; background-size: cover;" data-fancybox="progress" data-thumb="<?php echo $template_url; ?>/img/process/15_semeiniy_2/sm/2.jpg?v=1.1"></a>
 
