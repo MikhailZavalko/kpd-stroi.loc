@@ -75,7 +75,7 @@ get_header(); ?>
 		<div class="about-text">
 			<div class="text">
 				<h2>О проекте</h2>
-				<div class="image"></div>
+				<a href="<?php echo $template_url; ?>/img/about-img.jpg" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/about-img_sm.jpg) center; background-size: cover;"></a>
 				<ul>
 					<li>Коттеджный поселок “Семейный” расположен в селе Тополево в 15 минутах езды на автомобиле от центра Хабаровска</li>
 					<li>Село Тополево является экологически чистым районом пригорода Хабаровска</li>
@@ -208,7 +208,7 @@ get_header(); ?>
 							<li>Фасад - под каменные блоки, окрас в цвет - на выбор клиента</li>
 							<li>Трехслойные стеновые панели с утеплением: внешний фасад - бетон 6см + утеплитель 15см + бетон 8 см</li>
 							<li>Перекрытия: ребристые ж/б плиты с утеплением на 1 этаже + бетон; Ребристые ж/б плиты перекрытия с утеплением на кровле</li>
-							<li>Кровля -  четырехскатная, устройство рулонной кровли</li>
+							<li>Кровля - четырехскатная, устройство рулонной кровли</li>
 							<li>Окна ПВХ, входная утепленная дверь</li>
 							<li>Разводка стояков водоснабжения и канализации по дому</li>
 							<li>Внутренняя отделка: <span>чистовая отделка</span>, шпатлевка внешних стен</li>
@@ -252,7 +252,7 @@ get_header(); ?>
 							<li>Фасад - под каменные блоки, окрас в цвет - на выбор клиента</li>
 							<li>Трехслойные стеновые панели с утеплением: внешний фасад - бетон 6см + утеплитель 15см + бетон 8 см</li>
 							<li>Перекрытия: ребристые ж/б плиты с утеплением на 1 этаже + бетон; Ребристые ж/б плиты перекрытия с утеплением на кровле</li>
-							<li>Кровля -  четырехскатная, устройство рулонной кровли</li>
+							<li>Кровля - четырехскатная, устройство рулонной кровли</li>
 							<li>Окна ПВХ, входная утепленная дверь</li>
 							<li>Разводка стояков водоснабжения и канализации по дому</li>
 							<li>Внутренняя отделка: <span>чистовая отделка</span>, шпатлевка внешних стен</li>
@@ -462,7 +462,7 @@ get_header(); ?>
 							<li>Окна ПВХ, входная утепленная дверь</li>
 							<li>Разводка стояков водоснабжения и канализации по дому</li>
 							<li>Вентиляция</li>
-							<li>Крыльцо,  балконы с ограждением - ковка</li>
+							<li>Крыльцо, балконы с ограждением - ковка</li>
 							<li>Внутренняя отделка: <span>чистовая отделка</span>, шпатлевка внешних стен</li>
 						</ul>
 						<h4>Инженерные Сети:</h4>
@@ -510,7 +510,7 @@ get_header(); ?>
 							<li>Окна ПВХ, входная утепленная дверь</li>
 							<li>Разводка стояков водоснабжения и канализации по дому</li>
 							<li>Вентиляция</li>
-							<li>Крыльцо,  балконы с ограждением - ковка</li>
+							<li>Крыльцо, балконы с ограждением - ковка</li>
 							<li>Внутренняя отделка: <span>чистовая отделка</span>, шпатлевка внешних стен</li>
 						</ul>
 						<h4>Инженерные Сети:</h4>
@@ -559,7 +559,7 @@ get_header(); ?>
 							<li>Окна ПВХ, входная утепленная дверь</li>
 							<li>Разводка стояков водоснабжения и канализации по дому</li>
 							<li>Вентиляция</li>
-							<li>Крыльцо,  балконы с ограждением - ковка</li>
+							<li>Крыльцо, балконы с ограждением - ковка</li>
 							<li>Внутренняя отделка: <span>чистовая отделка</span>, шпатлевка внешних стен</li>
 						</ul>
 						<h4>Инженерные Сети:</h4>
@@ -605,50 +605,50 @@ get_header(); ?>
 
 
 
-<div class="progress-section" id="progress-section">
+<!-- <div class="progress-section" id="progress-section">
 	<div class="container">
 		<h2 class="type-head">Ход строительства</h2>
 		<h3>Дом двухэтажный, 111,91м<sup><small>2</small></sup> с террасой, балконом и четырехскатной кровлей</h3>
 		<div class="gallery">
 
-			<a href="<?php echo $template_url; ?>/img/process/7_topolevo_1/1.jpg?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/7_topolevo_1/sm/1.jpg?v=1.1) center; background-size: cover;" data-fancybox="7_topolevo_1" data-thumb="<?php echo $template_url; ?>/img/process/7_topolevo_1/sm/1.jpg?v=1.1"></a>
+			<a href="<?php// echo $template_url; ?>/img/process/7_topolevo_1/1.jpg?v=1.1" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/process/7_topolevo_1/sm/1.jpg?v=1.1) center; background-size: cover;" data-fancybox="7_topolevo_1" data-thumb="<?php// echo $template_url; ?>/img/process/7_topolevo_1/sm/1.jpg?v=1.1"></a>
 
-			<a href="<?php echo $template_url; ?>/img/process/7_topolevo_1/2.jpg?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/7_topolevo_1/sm/2.jpg?v=1.1) center; background-size: cover;" data-fancybox="7_topolevo_1" data-thumb="<?php echo $template_url; ?>/img/process/7_topolevo_1/sm/2.jpg?v=1.1"></a>
+			<a href="<?php// echo $template_url; ?>/img/process/7_topolevo_1/2.jpg?v=1.1" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/process/7_topolevo_1/sm/2.jpg?v=1.1) center; background-size: cover;" data-fancybox="7_topolevo_1" data-thumb="<?php// echo $template_url; ?>/img/process/7_topolevo_1/sm/2.jpg?v=1.1"></a>
 
-			<a href="<?php echo $template_url; ?>/img/process/7_topolevo_1/3.jpg?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/7_topolevo_1/sm/3.jpg?v=1.1) center; background-size: cover;" data-fancybox="7_topolevo_1" data-thumb="<?php echo $template_url; ?>/img/process/7_topolevo_1/sm/3.jpg?v=1.1"></a>
+			<a href="<?php// echo $template_url; ?>/img/process/7_topolevo_1/3.jpg?v=1.1" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/process/7_topolevo_1/sm/3.jpg?v=1.1) center; background-size: cover;" data-fancybox="7_topolevo_1" data-thumb="<?php// echo $template_url; ?>/img/process/7_topolevo_1/sm/3.jpg?v=1.1"></a>
 
-			<a href="<?php echo $template_url; ?>/img/process/7_topolevo_1/4.jpg?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/7_topolevo_1/sm/4.jpg?v=1.1) center; background-size: cover;" data-fancybox="7_topolevo_1" data-thumb="<?php echo $template_url; ?>/img/process/7_topolevo_1/sm/4.jpg?v=1.1"></a>
+			<a href="<?php// echo $template_url; ?>/img/process/7_topolevo_1/4.jpg?v=1.1" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/process/7_topolevo_1/sm/4.jpg?v=1.1) center; background-size: cover;" data-fancybox="7_topolevo_1" data-thumb="<?php// echo $template_url; ?>/img/process/7_topolevo_1/sm/4.jpg?v=1.1"></a>
 
-			<a href="<?php echo $template_url; ?>/img/process/7_topolevo_1/5.jpg?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/7_topolevo_1/sm/5.jpg?v=1.1) center; background-size: cover;" data-fancybox="7_topolevo_1" data-thumb="<?php echo $template_url; ?>/img/process/7_topolevo_1/sm/5.jpg?v=1.1"></a>
+			<a href="<?php// echo $template_url; ?>/img/process/7_topolevo_1/5.jpg?v=1.1" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/process/7_topolevo_1/sm/5.jpg?v=1.1) center; background-size: cover;" data-fancybox="7_topolevo_1" data-thumb="<?php// echo $template_url; ?>/img/process/7_topolevo_1/sm/5.jpg?v=1.1"></a>
 
-			<a href="<?php echo $template_url; ?>/img/process/7_topolevo_1/6.jpg?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/7_topolevo_1/sm/6.jpg?v=1.1) center; background-size: cover;" data-fancybox="7_topolevo_1" data-thumb="<?php echo $template_url; ?>/img/process/7_topolevo_1/sm/6.jpg?v=1.1"></a>
+			<a href="<?php// echo $template_url; ?>/img/process/7_topolevo_1/6.jpg?v=1.1" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/process/7_topolevo_1/sm/6.jpg?v=1.1) center; background-size: cover;" data-fancybox="7_topolevo_1" data-thumb="<?php// echo $template_url; ?>/img/process/7_topolevo_1/sm/6.jpg?v=1.1"></a>
 
 		</div>
 
 		<h3>Дом двухэтажный 120,54м<sup><small>2</small></sup> "Классика", с четырехскатной кровлей, с балконами</h3>
 		<div class="gallery">
 
-			<a href="<?php echo $template_url; ?>/img/process/12_semeiniy_1/1.jpg?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/12_semeiniy_1/sm/1.jpg?v=1.1) center; background-size: cover;" data-fancybox="12_semeiniy_1" data-thumb="<?php echo $template_url; ?>/img/process/12_semeiniy_1/sm/1.jpg?v=1.1"></a>
+			<a href="<?php// echo $template_url; ?>/img/process/12_semeiniy_1/1.jpg?v=1.1" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/process/12_semeiniy_1/sm/1.jpg?v=1.1) center; background-size: cover;" data-fancybox="12_semeiniy_1" data-thumb="<?php// echo $template_url; ?>/img/process/12_semeiniy_1/sm/1.jpg?v=1.1"></a>
 
-			<a href="<?php echo $template_url; ?>/img/process/12_semeiniy_1/2.jpg?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/12_semeiniy_1/sm/2.jpg?v=1.1) center; background-size: cover;" data-fancybox="12_semeiniy_1" data-thumb="<?php echo $template_url; ?>/img/process/12_semeiniy_1/sm/2.jpg?v=1.1"></a>
+			<a href="<?php// echo $template_url; ?>/img/process/12_semeiniy_1/2.jpg?v=1.1" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/process/12_semeiniy_1/sm/2.jpg?v=1.1) center; background-size: cover;" data-fancybox="12_semeiniy_1" data-thumb="<?php// echo $template_url; ?>/img/process/12_semeiniy_1/sm/2.jpg?v=1.1"></a>
 
-			<a href="<?php echo $template_url; ?>/img/process/12_semeiniy_1/3.jpg?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/12_semeiniy_1/sm/3.jpg?v=1.1) center; background-size: cover;" data-fancybox="12_semeiniy_1" data-thumb="<?php echo $template_url; ?>/img/process/12_semeiniy_1/sm/3.jpg?v=1.1"></a>
+			<a href="<?php// echo $template_url; ?>/img/process/12_semeiniy_1/3.jpg?v=1.1" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/process/12_semeiniy_1/sm/3.jpg?v=1.1) center; background-size: cover;" data-fancybox="12_semeiniy_1" data-thumb="<?php// echo $template_url; ?>/img/process/12_semeiniy_1/sm/3.jpg?v=1.1"></a>
 
 		</div>
 
 		<h3>Дом двухэтажный 106,59м<sup><small>2</small></sup> с четырехскатной кровлей, с балконами и навесом</h3>
 		<div class="gallery">
 
-			<a href="<?php echo $template_url; ?>/img/process/15_semeiniy_2/1.jpg?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/15_semeiniy_2/sm/1.jpg?v=1.1) center; background-size: cover;" data-fancybox="15_semeiniy_2" data-thumb="<?php echo $template_url; ?>/img/process/15_semeiniy_2/sm/1.jpg?v=1.1"></a>
+			<a href="<?php// echo $template_url; ?>/img/process/15_semeiniy_2/1.jpg?v=1.1" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/process/15_semeiniy_2/sm/1.jpg?v=1.1) center; background-size: cover;" data-fancybox="15_semeiniy_2" data-thumb="<?php// echo $template_url; ?>/img/process/15_semeiniy_2/sm/1.jpg?v=1.1"></a>
 
-			<a href="<?php echo $template_url; ?>/img/process/15_semeiniy_2/2.jpg?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/15_semeiniy_2/sm/2.jpg?v=1.1) center; background-size: cover;" data-fancybox="15_semeiniy_2" data-thumb="<?php echo $template_url; ?>/img/process/15_semeiniy_2/sm/2.jpg?v=1.1"></a>
+			<a href="<?php// echo $template_url; ?>/img/process/15_semeiniy_2/2.jpg?v=1.1" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/process/15_semeiniy_2/sm/2.jpg?v=1.1) center; background-size: cover;" data-fancybox="15_semeiniy_2" data-thumb="<?php// echo $template_url; ?>/img/process/15_semeiniy_2/sm/2.jpg?v=1.1"></a>
 
-			<a href="<?php echo $template_url; ?>/img/process/15_semeiniy_2/3.jpg?v=1.1" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/process/15_semeiniy_2/sm/3.jpg?v=1.1) center; background-size: cover;" data-fancybox="15_semeiniy_2" data-thumb="<?php echo $template_url; ?>/img/process/15_semeiniy_2/sm/3.jpg?v=1.1"></a>
+			<a href="<?php// echo $template_url; ?>/img/process/15_semeiniy_2/3.jpg?v=1.1" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/process/15_semeiniy_2/sm/3.jpg?v=1.1) center; background-size: cover;" data-fancybox="15_semeiniy_2" data-thumb="<?php// echo $template_url; ?>/img/process/15_semeiniy_2/sm/3.jpg?v=1.1"></a>
 
 		</div>
 
 	</div>
-</div>
+</div> -->
 
 
 
@@ -665,13 +665,22 @@ get_header(); ?>
 	<div class="container">
 		<h2>Технология</h2>
 
-		<div class="video-block">
-			<div class="imacWrapper">
-				<img class="img-responsive" src="<?php echo $template_url; ?>/img/mac.png" alt="iMac">
+		<div class="video-blocks">
+
+			<div class="video-block">
+				<h4>Этапы строительства дома Народный</h4>
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/6GSTyOiCGRM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
 			</div>
-			<div class="videoWrapper">
-				<iframe src="https://www.youtube.com/embed/OfvZIRqvawY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+			<div class="video-block">
+				<h4>Этапы строительства дома Классика</h4>
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/xCbEcFG1MH0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
 			</div>
+
 		</div>
 
 		<div class="text">

@@ -744,17 +744,31 @@ p
 
 .technology-section
 	background-color: #ededed
-	.video-block
-		margin: 0 auto
-		max-width: 700px
-		position: relative
-		iframe
-			position: absolute
-			top: 27px
-			left: 27px
-			z-index: 1
-			width: 644px
-			height: 365px
+	// .video-block
+	// 	margin: 0 auto
+	// 	max-width: 700px
+	// 	position: relative
+	// 	iframe
+	// 		position: absolute
+	// 		top: 27px
+	// 		left: 27px
+	// 		z-index: 1
+	// 		width: 644px
+	// 		height: 365px
+	.video-blocks
+		display: grid
+		grid-template-columns: repeat(2, 1fr)
+		grid-gap: 20px
+		margin-bottom: 50px
+		h4
+			text-align: center
+			font-size: 24px
+		.video
+			display: flex
+			justify-content: center
+			align-items: center
+			iframe
+				border: 10px solid $green
 	.technology-images
 		display: flex
 		justify-content: center
