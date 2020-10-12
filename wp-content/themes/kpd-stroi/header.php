@@ -18,7 +18,7 @@ $template_url = get_template_directory_uri();
 	<meta name="format-detection" content="telephone=no">
 	<meta name="yandex-verification" content="da6ea4bee5009428" />
 	<link rel="icon" type="image/x-icon" href="<?php echo $template_url; ?>/img/favicon/favicon.ico">
-	<link rel="stylesheet" id="main" href="<?php echo $template_url; ?>/css/main.min.css?v=1.12" type="text/css" media="all">
+	<link rel="stylesheet" id="main" href="<?php echo $template_url; ?>/css/main.min.css?v=1.13" type="text/css" media="all">
 	
 	<script type="text/javascript">
 		/* <![CDATA[ */
@@ -74,6 +74,13 @@ $template_url = get_template_directory_uri();
 					<li><a href="#our-homes">Дома</a></li>
 					<!-- <li><a href="#progress-section">Ход строительства</a></li> -->
 					<li><a href="https://kpd100zavod.ru/" target="_blank" rel="nofollow">Завод</a></li>
+					<li>
+						<a href="#" onclick="return false">Коттеджные поселки</a>
+						<ul class="submenu">
+							<li><a href="https://xn--80aeibvb0aikeh1l.xn--p1ai/" target="_blank" rel="nofollow">Экопарк Северный</a></li>
+							<li><a href="https://xn--80agtbsgi3hpa.xn--p1ai/" target="_blank" rel="nofollow">Экопарк Южный</a></li>
+						</ul>
+					</li>
 					<li><a href="#contacts">Контакты</a></li>
 				</ul>
 
