@@ -130,7 +130,7 @@ $template_url = get_template_directory_uri();
 	</div>
 
 	<script src="<?php echo $template_url; ?>/js/scripts.min.js?v=1.2"></script>
-
+	<script src="//code-ya.jivosite.com/widget/NMy7caKrkL" async></script>
 	<script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
 
 	<!-- Yandex.Metrika counter -->
@@ -150,7 +150,6 @@ $template_url = get_template_directory_uri();
 	<!-- /Yandex.Metrika counter -->
 
 	<?php wp_footer(); ?>
-
 
 </body>
 

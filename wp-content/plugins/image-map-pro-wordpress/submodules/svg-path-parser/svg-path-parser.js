@@ -1,45 +1,56 @@
-// svgPathToCommands('M10,10 l 5,7 C-5,7.2,.3-16,24,10  z');
-//
-// produces:
-//
-// [ { marker: "M", values: [ 10, 10 ] }, 
-//   { marker: "l", values: [ 5, 7 ] },
-//   { marker: "C", values: [ -5, 7.2, 0.3, -16, 24, 10 ] },
-//   { marker: "z", values: [ ] } ]
-//
-// commandsToSvgPath(svgPathToCommands('M10,10 l 5,7 C-5,7.2,.3-16,24,10  z'))
-//
-// produces: 'M 10,10 l 5,7 C -5,7.2,0.3,-16,24,10 z'
+(function ($, window, document, undefined) {
+  /**
+ * expected argument lengths
+ * @type {Object}
+ */
 
-var markerRegEx = /[MmLlSsQqLlHhVvCcSsQqTtAaZz]/g;
-var digitRegEx = /-?[0-9]*\.?\d+/g;
+  var length = { a: 7, c: 6, h: 1, l: 2, m: 2, q: 4, s: 4, t: 2, v: 1, z: 0 }
 
-$.svgPathParser = function(str) {
-    var results = []; 
-    var match; while ((match = markerRegEx.exec(str)) !== null) { results.push(match); };
-    return results
-        .map(function(match) {
-            return { marker: str[match.index], 
-                     index: match.index };
-        })
-        .reduceRight(function(all, cur) {
-            var chunk = str.substring(cur.index, all.length ? all[all.length - 1].index : str.length);
-            return all.concat([
-               { marker: cur.marker, 
-                 index: cur.index, 
-                 chunk: (chunk.length > 0) ? chunk.substr(1, chunk.length - 1) : chunk }
-            ]);
-        }, [])
-        .reverse()
-        .map(function(command) {
-            var values = command.chunk.match(digitRegEx);
-            return { marker: command.marker, values: values ? values.map(parseFloat) : []};
-        })
-}
+  /**
+ * segment pattern
+ * @type {RegExp}
+ */
 
+  var segment = /([astvzqmhlc])([^astvzqmhlc]*)/ig
 
-$.commandsToSvgPath = function(commands) {
-    return commands.map(function(command) {
-        return command.marker + ' ' + command.values.join(',');
-    }).join(' ').trim();
-}
+  /**
+ * parse an svg path data string. Generates an Array
+ * of commands where each command is an Array of the
+ * form `[command, arg1, arg2, ...]`
+ *
+ * @param {String} path
+ * @return {Array}
+ */
+
+  $.svgPathParser = function (path) {
+    var data = []
+    path.replace(segment, function (_, command, args) {
+      var type = command.toLowerCase()
+      args = parseValues(args)
+
+      // overloaded moveTo
+      if (type === 'm' && args.length > 2) {
+        data.push([command].concat(args.splice(0, 2)))
+        type = 'l'
+        command = command === 'm' ? 'l' : 'L'
+      }
+
+      while (true) {
+        if (args.length === length[type]) {
+          args.unshift(command)
+          return data.push(args)
+        }
+        if (args.length < length[type]) throw new Error('malformed path data')
+        data.push([command].concat(args.splice(0, length[type])))
+      }
+    })
+    return data
+  }
+
+  var number = /-?[0-9]*\.?[0-9]+(?:e[-+]?\d+)?/ig
+
+  function parseValues (args) {
+    var numbers = args.match(number)
+    return numbers ? numbers.map(Number) : []
+  }
+})(jQuery, window, document)

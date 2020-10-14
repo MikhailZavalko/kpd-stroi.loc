@@ -10,7 +10,7 @@ foreach (glob(plugin_dir_path(__FILE__) . 'countries/*.php') as $filename)
 /*
 Plugin Name: Image Map Pro
 Plugin URI: http://www.imagemappro.com/
-Version: 5.3.0
+Version: 5.3.2
 Author: Webcraft Plugins Ltd.
 Description: The most advanced image map builder for WordPress
 */
@@ -25,7 +25,7 @@ Description: The most advanced image map builder for WordPress
 if (!class_exists('ImageMapPro')) {
 	class ImageMapPro {
 		function __construct() {
-			$this->version = '5.3.0';
+			$this->version = '5.3.2';
 			$this->admin_options_name = 'image-map-pro-wordpress-admin-options';
 			$this->default_settings = array(
 				"purchase_code" => '',
