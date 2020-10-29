@@ -668,16 +668,9 @@ get_header(); ?>
 		<div class="video-blocks">
 
 			<div class="video-block">
-				<h4>Этапы строительства дома Народный</h4>
+				<h4>Этапы строительства дома</h4>
 				<div class="video">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/6GSTyOiCGRM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</div>
-
-			<div class="video-block">
-				<h4>Этапы строительства дома Классика</h4>
-				<div class="video">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/xCbEcFG1MH0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/LLzPBfVWISA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 
