@@ -26,7 +26,7 @@ $template_url = get_template_directory_uri();
 					</div>
 					<div class="text">
 						<p>Нас легко найти:</p>
-						<p>Россия, г. Хабаровск, ул. Калинина, 51</p>
+						<p>Россия, г. Хабаровск, ул. Ленина 18в</p>
 					</div>
 				</a>
 
@@ -129,7 +129,7 @@ $template_url = get_template_directory_uri();
 
 	</div>
 
-	<script src="<?php echo $template_url; ?>/js/scripts.min.js?v=1.2"></script>
+	<script src="<?php echo $template_url; ?>/js/scripts.min.js?v=1.3"></script>
 	<script src="//code-ya.jivosite.com/widget/NMy7caKrkL" async></script>
 	<script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
 
