@@ -38,7 +38,7 @@ get_header(); ?>
 						<img src="<?php echo $template_url; ?>/img/top-icon-2.svg" class="img-responsive" alt="icon">
 					</div>
 					<div class="text">
-						<p>Центральные <br>коммуникации</p>
+						<p>Все <br>коммуникации</p>
 					</div>
 				</div>
 
@@ -101,7 +101,7 @@ get_header(); ?>
 				<div class="icon"><img class="img-responsive" src="<?php echo $template_url; ?>/img/about-icon-2.svg" alt="icon"></div>
 				<div class="text">
 					<h4>Водопровод</h4>
-					<p>Центральная холодная вода</p>
+					<p>Скважина</p>
 				</div>
 			</div>
 
@@ -218,7 +218,7 @@ get_header(); ?>
 						</ul>
 						<h4>Инженерные Сети:</h4>
 						<ul>
-							<li>Центральная вода</li>
+							<li>Скважина</li>
 							<li>Шамбо - 10 кубов</li>
 							<li>Отопление - электрические радиаторы</li>
 							<li>Электроэнергия - 15 кВт, ввод в дом, установка счетчика день/ночь</li>
@@ -266,7 +266,7 @@ get_header(); ?>
 						</ul>
 						<h4>Инженерные Сети:</h4>
 						<ul>
-							<li>Центральная вода</li>
+							<li>Скважина</li>
 							<li>Шамбо - 10 кубов</li>
 							<li>Отопление - электрические радиаторы</li>
 							<li>Электроэнергия - 15 кВт, ввод в дом, установка счетчика день/ночь</li>
@@ -314,7 +314,7 @@ get_header(); ?>
 						</ul>
 						<h4>Инженерные Сети:</h4>
 						<ul>
-							<li>Центральная вода</li>
+							<li>Скважина</li>
 							<li>Шамбо - 10 кубов</li>
 							<li>Отопление - электрические радиаторы</li>
 							<li>Электроэнергия - 15 кВт, ввод в дом, установка счетчика день/ночь</li>
@@ -361,7 +361,7 @@ get_header(); ?>
 						</ul>
 						<h4>Инженерные Сети:</h4>
 						<ul>
-							<li>Центральная вода</li>
+							<li>Скважина</li>
 							<li>Шамбо - 10 кубов</li>
 							<li>Отопление - электрические радиаторы</li>
 							<li>Электроэнергия - 15 кВт, ввод в дом, установка счетчика день/ночь</li>
@@ -400,7 +400,7 @@ get_header(); ?>
 
 
 
-<!-- <section class="houses-section">
+<section class="houses-section">
 	<div class="container">
 
 		<div class="tabs houses reverse">
@@ -409,14 +409,14 @@ get_header(); ?>
 
 				<div class="tab-content active" data-tab="small">
 					<div class="text">
-						<h2>Каменный дом 90,04 м<sup><small>2</small></sup><br> с односкатной кровлей</h2>
-						<h4>Наполнение Народного дома:</h4>
+						<h2>Каменный надежный дом 83,3 м<sup><small>2</small></sup></h2>
+						<h4>Наполнение Мансардного дома:</h4>
 						<ul>
 							<li>Фундамент буронабивной от 3 до 4м глубиной</li>
 							<li>Фасад - окраска фасадной краской + декоративные элементы фахверк</li>
 							<li>Трехслойные стеновые панели с утеплением: внешний фасад - бетон 5 см + утеплитель 15см + бетон 6 см</li>
 							<li>Перекрытия: ребристые ж/б плиты с утеплением на 1 этаже + бетон; межэтажное ребристое бетонное перекрытие, ребристые ж/б плиты перекрытия с утеплением на кровле</li>
-							<li>Кровля: односкатная под уклоном, устройство рулонной кровли</li>
+							<li>Кровля - мансардная утепленная с водосточной системой и подшивкой софитами</li>
 							<li>Лестница межэтажная деревянная с состариванием и шлифованием</li>
 							<li>Окна ПВХ, входная утепленная дверь</li>
 							<li>Стояки хол. воды и канализации, подключение к сетям</li>
@@ -426,30 +426,29 @@ get_header(); ?>
 						</ul>
 						<h4>Инженерные Сети:</h4>
 						<ul>
-							<li>Центральная вода</li>
-							<li>Шамбо - 10 кубов</li>
+							<li>Скважина глубиной 40м + насос, обвязка</li>
+							<li>Септик 1,5 куб/сутки - либо шамбо 10 кубов</li>
 							<li>Отопление - электрические радиаторы</li>
 							<li>Электроэнергия - 15 кВт, ввод в дом, установка счетчика день/ночь</li>
 						</ul>
 						<h4>Благоустройство:</h4>
 						<ul>
-							<li>Земельный участок в собственности 10 соток</li>
+							<li>Земельный участок в собственности 8 соток</li>
 							<li>Дорога внутриквартальная</li>
 							<li>Освещение поселка</li>
-							<li>Закрытая огороженная территория (общий забор)</li>
 						</ul>
-						<h2>Стоимость: 4.50 <small>млн. ₽</small></h2>
+						<h2>Стоимость: 4.67 <small>млн. ₽</small></h2>
 					</div>
 
 					<div class="name-image">
-						<h3>Народный дом</h3>
-						<a href="<?php// echo $template_url; ?>/img/houses/people_1/1.jpg?v=1.6" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/people_1/sm.jpg?v=1.6) center; background-size: cover;" data-fancybox="house-people_1"></a>
+						<h3>Мансардный дом</h3>
+						<a href="<?php echo $template_url; ?>/img/houses/attic_1/1.jpg?v=1.6" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/attic_1/sm/1.jpg?v=1.6) center; background-size: cover;" data-fancybox="house-attic_1"></a>
 						<div class="d-none">
-							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_1/2.jpg?v=1.6" data-fancybox="house-people_1" data-thumb="<?php// echo $template_url; ?>/img/houses/people_1/2.jpg?v=1.6"></a>
-							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_1/3.jpg?v=1.6" data-fancybox="house-people_1" data-thumb="<?php// echo $template_url; ?>/img/houses/people_1/3.jpg?v=1.6"></a>
-							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_1/4.jpg?v=1.6" data-fancybox="house-people_1" data-thumb="<?php// echo $template_url; ?>/img/houses/people_1/4.jpg?v=1.6"></a>
-							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_1/5.jpg?v=1.6" data-fancybox="house-people_1" data-thumb="<?php// echo $template_url; ?>/img/houses/people_1/5.jpg?v=1.6"></a>
-							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_1/scheme.jpg?v=1.6" data-fancybox="house-people_1" data-thumb="<?php// echo $template_url; ?>/img/houses/people_1/scheme.jpg?v=1.6"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/attic_1/2.jpg?v=1.6" data-fancybox="house-attic_1" data-thumb="<?php echo $template_url; ?>/img/houses/attic_1/2.jpg?v=1.6"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/attic_1/3.jpg?v=1.6" data-fancybox="house-attic_1" data-thumb="<?php echo $template_url; ?>/img/houses/attic_1/3.jpg?v=1.6"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/attic_1/4.jpg?v=1.6" data-fancybox="house-attic_1" data-thumb="<?php echo $template_url; ?>/img/houses/attic_1/4.jpg?v=1.6"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/attic_1/5.jpg?v=1.6" data-fancybox="house-attic_1" data-thumb="<?php echo $template_url; ?>/img/houses/attic_1/5.jpg?v=1.6"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/attic_1/scheme.jpg?v=1.6" data-fancybox="house-attic_1" data-thumb="<?php echo $template_url; ?>/img/houses/attic_1/scheme.jpg?v=1.6"></a>
 						</div>
 					</div>
 
@@ -458,14 +457,14 @@ get_header(); ?>
 				<div class="tab-content" data-tab="medium">
 
 					<div class="text">
-						<h2>Каменный дом 120,54 м<sup><small>2</small></sup><br> с односкатной кровлей</h2>
-						<h4>Наполнение Народного дома:</h4>
+						<h2>Каменный надежный дом 117 м<sup><small>2</small></sup></h2>
+						<h4>Наполнение Мансардного дома:</h4>
 						<ul>
 							<li>Фундамент буронабивной от 3 до 4м глубиной</li>
 							<li>Фасад - окраска фасадной краской + декоративные элементы фахверк</li>
 							<li>Трехслойные стеновые панели с утеплением: внешний фасад - бетон 5 см + утеплитель 15см + бетон 6 см</li>
 							<li>Перекрытия: ребристые ж/б плиты с утеплением на 1 этаже + бетон; межэтажное ребристое бетонное перекрытие, ребристые ж/б плиты перекрытия с утеплением на кровле</li>
-							<li>Кровля: односкатная под уклоном, устройство рулонной кровли</li>
+							<li>Кровля - мансардная утепленная с водосточной системой и подшивкой софитами</li>
 							<li>Лестница межэтажная деревянная с состариванием и шлифованием</li>
 							<li>Окна ПВХ, входная утепленная дверь</li>
 							<li>Стояки хол. воды и канализации, подключение к сетям</li>
@@ -475,30 +474,29 @@ get_header(); ?>
 						</ul>
 						<h4>Инженерные Сети:</h4>
 						<ul>
-							<li>Центральная вода</li>
-							<li>Шамбо - 10 кубов</li>
+							<li>Скважина глубиной 40м + насос, обвязка</li>
+							<li>Септик 1,5 куб/сутки - либо шамбо 10 кубов</li>
 							<li>Отопление - электрические радиаторы</li>
 							<li>Электроэнергия - 15 кВт, ввод в дом, установка счетчика день/ночь</li>
 						</ul>
 						<h4>Благоустройство:</h4>
 						<ul>
-							<li>Земельный участок в собственности 10 соток</li>
+							<li>Земельный участок в собственности 8 соток</li>
 							<li>Дорога внутриквартальная</li>
 							<li>Освещение поселка</li>
-							<li>Закрытая огороженная территория (общий забор)</li>
 						</ul>
-						<h2>Стоимость: 5.15 <small>млн. ₽</small></h2>
+						<h2>Стоимость: 5.32 <small>млн. ₽</small></h2>
 					</div>
 
 					<div class="name-image">
-						<h3>Народный дом</h3>
-						<a href="<?php// echo $template_url; ?>/img/houses/people_2/1.jpg?v=1.6" class="image fancybox" style="background: url(<?php// echo $template_url; ?>/img/houses/people_2/sm.jpg?v=1.6) center; background-size: cover;" data-fancybox="house-people_2"></a>
+						<h3>Мансардный дом</h3>
+						<a href="<?php echo $template_url; ?>/img/houses/attic_2/1.jpg?v=1.6" class="image fancybox" style="background: url(<?php echo $template_url; ?>/img/houses/attic_2/sm/1.jpg?v=1.6) center; background-size: cover;" data-fancybox="house-attic_2"></a>
 						<div class="d-none">
-							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_2/2.jpg?v=1.6" data-fancybox="house-people_2" data-thumb="<?php// echo $template_url; ?>/img/houses/people_2/2.jpg?v=1.6"></a>
-							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_2/3.jpg?v=1.6" data-fancybox="house-people_2" data-thumb="<?php// echo $template_url; ?>/img/houses/people_2/3.jpg?v=1.6"></a>
-							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_2/4.jpg?v=1.6" data-fancybox="house-people_2" data-thumb="<?php// echo $template_url; ?>/img/houses/people_2/4.jpg?v=1.6"></a>
-							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_2/5.jpg?v=1.6" data-fancybox="house-people_2" data-thumb="<?php// echo $template_url; ?>/img/houses/people_2/5.jpg?v=1.6"></a>
-							<a class="image fancybox" href="<?php// echo $template_url; ?>/img/houses/people_2/scheme.jpg?v=1.6" data-fancybox="house-people_2" data-thumb="<?php// echo $template_url; ?>/img/houses/people_2/scheme.jp?v=1.6g"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/attic_2/2.jpg?v=1.6" data-fancybox="house-attic_2" data-thumb="<?php echo $template_url; ?>/img/houses/attic_2/2.jpg?v=1.6"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/attic_2/3.jpg?v=1.6" data-fancybox="house-attic_2" data-thumb="<?php echo $template_url; ?>/img/houses/attic_2/3.jpg?v=1.6"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/attic_2/4.jpg?v=1.6" data-fancybox="house-attic_2" data-thumb="<?php echo $template_url; ?>/img/houses/attic_2/4.jpg?v=1.6"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/attic_2/5.jpg?v=1.6" data-fancybox="house-attic_2" data-thumb="<?php echo $template_url; ?>/img/houses/attic_2/5.jpg?v=1.6"></a>
+							<a class="image fancybox" href="<?php echo $template_url; ?>/img/houses/attic_2/scheme.jpg?v=1.6" data-fancybox="house-attic_2" data-thumb="<?php echo $template_url; ?>/img/houses/attic_2/scheme.jpg?v=1.6"></a>
 						</div>
 					</div>
 
@@ -516,7 +514,7 @@ get_header(); ?>
 
 	</div>
 
-</section> -->
+</section>
 
 
 
@@ -572,7 +570,7 @@ get_header(); ?>
 						</ul>
 						<h4>Инженерные Сети:</h4>
 						<ul>
-							<li>Центральная вода</li>
+							<li>Скважина</li>
 							<li>Шамбо - 10 кубов</li>
 							<li>Отопление - электрические радиаторы</li>
 							<li>Электроэнергия - 15 кВт, ввод в дом, установка счетчика день/ночь</li>
@@ -621,7 +619,7 @@ get_header(); ?>
 						</ul>
 						<h4>Инженерные Сети:</h4>
 						<ul>
-							<li>Центральная вода</li>
+							<li>Скважина</li>
 							<li>Шамбо - 10 кубов</li>
 							<li>Отопление - электрические радиаторы</li>
 							<li>Электроэнергия - 15 кВт, ввод в дом, установка счетчика день/ночь</li>
@@ -670,7 +668,7 @@ get_header(); ?>
 						</ul>
 						<h4>Инженерные Сети:</h4>
 						<ul>
-							<li>Центральная вода</li>
+							<li>Скважина</li>
 							<li>Шамбо - 10 кубов</li>
 							<li>Отопление - электрические радиаторы</li>
 							<li>Электроэнергия - 15 кВт, ввод в дом, установка счетчика день/ночь</li>
@@ -719,7 +717,7 @@ get_header(); ?>
 						</ul>
 						<h4>Инженерные Сети:</h4>
 						<ul>
-							<li>Центральная вода</li>
+							<li>Скважина</li>
 							<li>Шамбо - 10 кубов</li>
 							<li>Отопление - электрические радиаторы</li>
 							<li>Электроэнергия - 15 кВт, ввод в дом, установка счетчика день/ночь</li>
